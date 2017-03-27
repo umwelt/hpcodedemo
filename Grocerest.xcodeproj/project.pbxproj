@@ -1,0 +1,2026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0F305D1CDCC33500590511 /* GRShoppingListAutocompleteBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F305C1CDCC33500590511 /* GRShoppingListAutocompleteBarView.swift */; };
+		0D2889181E799C4400868F66 /* RCTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2889171E799C4400868F66 /* RCTViewController.swift */; };
+		0D2889541E7AA24200868F66 /* EventManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2889531E7AA24200868F66 /* EventManagerBridge.m */; };
+		0D2889561E7AA2D300868F66 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2889551E7AA2D300868F66 /* EventManager.swift */; };
+		0D2AFB591CC6041E00F7845A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0D2AFB581CC6041E00F7845A /* README.md */; };
+		0D4A56AE1E798DC700B4FEA1 /* Development.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4A56AD1E798DC700B4FEA1 /* Development.storyboard */; };
+		0D4A56B01E798DFD00B4FEA1 /* GRProductAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A56AF1E798DFD00B4FEA1 /* GRProductAvailabilityView.swift */; };
+		0D55AB3C1DEC93CB00037E8E /* GrocerestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55AB3B1DEC93CB00037E8E /* GrocerestAPI.swift */; };
+		0DA0A9FE1E32AFC100DBB15D /* TuneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA0A9FD1E32AFC100DBB15D /* TuneManager.swift */; };
+		0DA2595B1DD4EA5A00AE548E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2595A1DD4EA5A00AE548E /* UIImageView.swift */; };
+		0DAB61651DD6169E00506A78 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB61641DD6169E00506A78 /* UIImage.swift */; };
+		0DAEDA771DD45B48000E690E /* GRInvitationCodeInvalidErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEDA761DD45B48000E690E /* GRInvitationCodeInvalidErrorViewController.swift */; };
+		0DAEDA791DD45C9A000E690E /* GRInvitationCodeInvalidErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEDA781DD45C9A000E690E /* GRInvitationCodeInvalidErrorView.swift */; };
+		1309BA981D6D8FBE00583EE2 /* GRStatProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1309BA971D6D8FBE00583EE2 /* GRStatProgress.swift */; };
+		1313A86A1CFC2639001F5DC8 /* GRNetworkErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313A8691CFC2639001F5DC8 /* GRNetworkErrorView.swift */; };
+		1313A86C1CFC2667001F5DC8 /* GRNetworkErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313A86B1CFC2667001F5DC8 /* GRNetworkErrorViewController.swift */; };
+		131C94DD1D7573B300622C7F /* GRCategoryLevelProgressStatisticsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C94DC1D7573B300622C7F /* GRCategoryLevelProgressStatisticsPanel.swift */; };
+		131D30161D814066009AE769 /* GRBadgesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D30151D814066009AE769 /* GRBadgesTab.swift */; };
+		131D30191D81500C009AE769 /* GRBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D30181D81500C009AE769 /* GRBadge.swift */; };
+		131D301B1D8172B2009AE769 /* GRBadgeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D301A1D8172B2009AE769 /* GRBadgeWidget.swift */; };
+		131D7FA71D7983C6009DE400 /* GRReviewsStatisticsCategoryTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D7FA61D7983C6009DE400 /* GRReviewsStatisticsCategoryTable.swift */; };
+		131ED39A1D38C2D600AAFA74 /* GRReviewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131ED3991D38C2D600AAFA74 /* GRReviewsListViewController.swift */; };
+		131ED39C1D38C2E100AAFA74 /* GRReviewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131ED39B1D38C2E100AAFA74 /* GRReviewsListView.swift */; };
+		13204D1D1D099F82002313E8 /* GRPasswordChangeAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13204D1C1D099F82002313E8 /* GRPasswordChangeAlertViewController.swift */; };
+		13204D1F1D09A4E5002313E8 /* GRPasswordChangeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13204D1E1D09A4E5002313E8 /* GRPasswordChangeAlertView.swift */; };
+		1324E2951D1138490042A096 /* GRDateSelectorAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324E2941D1138490042A096 /* GRDateSelectorAlertViewController.swift */; };
+		1324E2971D11386F0042A096 /* GRDateSelectorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324E2961D11386F0042A096 /* GRDateSelectorAlertView.swift */; };
+		1328FF4B1D0FEA49005AC354 /* GRSelectorAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1328FF4A1D0FEA49005AC354 /* GRSelectorAlertViewController.swift */; };
+		1328FF4D1D0FEA87005AC354 /* GRSelectorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1328FF4C1D0FEA87005AC354 /* GRSelectorAlertView.swift */; };
+		132B1EFC1D803DC70051CDA2 /* GRActivitiesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B1EFB1D803DC70051CDA2 /* GRActivitiesTab.swift */; };
+		132FAFAB1D225DD80076A7F1 /* GRProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FAFAA1D225DD80076A7F1 /* GRProductDetailViewController.swift */; };
+		132FAFAD1D225DEE0076A7F1 /* GRProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FAFAC1D225DEE0076A7F1 /* GRProductDetailView.swift */; };
+		1334F1881E57300200160054 /* GRBrandsSearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334F1871E57300200160054 /* GRBrandsSearchFilterView.swift */; };
+		1334F18A1E57304100160054 /* GRBrandsSearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334F1891E57304100160054 /* GRBrandsSearchFilterViewController.swift */; };
+		13363CCE1DB655B200046DD8 /* GRUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13363CCD1DB655B200046DD8 /* GRUsersViewController.swift */; };
+		13363CD01DB65B3F00046DD8 /* GRUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13363CCF1DB65B3F00046DD8 /* GRUsersView.swift */; };
+		133DAB621DACEDEA0058639A /* GRCategoryToExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133DAB611DACEDE90058639A /* GRCategoryToExplore.swift */; };
+		133E4C001DAE2C880070D5BE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E4BFF1DAE2C880070D5BE /* UIView.swift */; };
+		133E4C031DAE2E920070D5BE /* GRCategoriesToExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133E4C021DAE2E920070D5BE /* GRCategoriesToExplore.swift */; };
+		133EDDCA1DB4B23400E8B3AF /* GRLastReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDDC91DB4B23400E8B3AF /* GRLastReview.swift */; };
+		133EDDCC1DB5032500E8B3AF /* GRLastReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133EDDCB1DB5032500E8B3AF /* GRLastReviews.swift */; };
+		133F71B11D1401F1003492AD /* GRNameChangeAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133F71B01D1401F1003492AD /* GRNameChangeAlertViewController.swift */; };
+		133F71B31D14020B003492AD /* GRNameChangeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133F71B21D14020B003492AD /* GRNameChangeAlertView.swift */; };
+		13406CAE1DABACED00256571 /* GRReviewToComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13406CAD1DABACED00256571 /* GRReviewToComplete.swift */; };
+		134346B81CE1E11B008CB2BE /* GRMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134346B71CE1E11B008CB2BE /* GRMessageViewController.swift */; };
+		134346BA1CE1E136008CB2BE /* GRMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134346B91CE1E136008CB2BE /* GRMessageView.swift */; };
+		134346BC1CE1E147008CB2BE /* GRMessageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134346BB1CE1E147008CB2BE /* GRMessageViewProtocol.swift */; };
+		134346BE1CE21519008CB2BE /* GRCredentialsRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134346BD1CE21519008CB2BE /* GRCredentialsRecoveryViewController.swift */; };
+		134346C01CE21552008CB2BE /* GRCredentialsRecoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134346BF1CE21552008CB2BE /* GRCredentialsRecoveryView.swift */; };
+		134346C21CE21599008CB2BE /* GRCredentialsRecoveryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134346C11CE21599008CB2BE /* GRCredentialsRecoveryProtocol.swift */; };
+		135321081D6ED082006C8710 /* GRActivityLevelProgressStatisticsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135321071D6ED082006C8710 /* GRActivityLevelProgressStatisticsPanel.swift */; };
+		135587D21DA4EF530065D18B /* GRHomeBaloonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135587D11DA4EF530065D18B /* GRHomeBaloonView.swift */; };
+		135C186D1E029D2800427B5F /* GRScannedProductNotFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135C186C1E029D2800427B5F /* GRScannedProductNotFoundView.swift */; };
+		136709F91D76D711000C64FE /* GRCakeDiagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136709F81D76D711000C64FE /* GRCakeDiagram.swift */; };
+		136C7F511D7D815C00557AD3 /* GRCategoriesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C7F501D7D815C00557AD3 /* GRCategoriesTab.swift */; };
+		1372FFA11CEEEB3F007E4128 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1372FFA01CEEEB3F007E4128 /* UIApplication.swift */; };
+		1376E99A1CD23C7300698BE8 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1376E9991CD23C7300698BE8 /* FacebookSDKStrings.bundle */; };
+		13810A6F1E49A48F00FBE6B7 /* GRBrandDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13810A6E1E49A48F00FBE6B7 /* GRBrandDetailView.swift */; };
+		13810A711E49A4E900FBE6B7 /* GRBrandDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13810A701E49A4E900FBE6B7 /* GRBrandDetailViewController.swift */; };
+		13810A731E49AFAE00FBE6B7 /* GRLastIdTappedCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13810A721E49AFAE00FBE6B7 /* GRLastIdTappedCacher.swift */; };
+		13810A751E49C2F600FBE6B7 /* GRBrandDetailProductsListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13810A741E49C2F600FBE6B7 /* GRBrandDetailProductsListDataSource.swift */; };
+		138D78C41DA62EC3009B3715 /* GRBaloonMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D78C31DA62EC3009B3715 /* GRBaloonMessage.swift */; };
+		1399406A1D3D07F7006A8E78 /* GRReviewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139940691D3D07F7006A8E78 /* GRReviewDetailViewController.swift */; };
+		1399406C1D3D0801006A8E78 /* GRReviewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399406B1D3D0801006A8E78 /* GRReviewDetailView.swift */; };
+		13A5B7561E2619AD0073EA9B /* ReviewSharingActivitySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5B7551E2619AD0073EA9B /* ReviewSharingActivitySource.swift */; };
+		13AE8FDA1DB0C1060057C809 /* GRReviewsToComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE8FD91DB0C1060057C809 /* GRReviewsToComplete.swift */; };
+		13BAA95B1E432DFB0028990B /* GRBrandsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BAA95A1E432DFB0028990B /* GRBrandsListViewController.swift */; };
+		13BAA95E1E432E190028990B /* GRBrandsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BAA95D1E432E190028990B /* GRBrandsListView.swift */; };
+		13BAA9601E434A6C0028990B /* GRBrandsSearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BAA95F1E434A6C0028990B /* GRBrandsSearchResultsView.swift */; };
+		13BAA9621E4368B80028990B /* GRBrandsResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BAA9611E4368B80028990B /* GRBrandsResultTableViewCell.swift */; };
+		13BE03C41D6D789E0069387F /* GRProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BE03C31D6D789E0069387F /* GRProgressCircle.swift */; };
+		13C6D4AE1D2A971A0000867C /* GRReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6D4AD1D2A971A0000867C /* GRReviewTableViewCell.swift */; };
+		13D4D3271D055F5F009DF6CD /* GRHomeCollectionLoadingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D4D3261D055F5F009DF6CD /* GRHomeCollectionLoadingViewCell.swift */; };
+		13D4D3291D0587A6009DF6CD /* GRLoadingTopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D4D3281D0587A6009DF6CD /* GRLoadingTopListView.swift */; };
+		13D928FD1E2517A500D6F37F /* ProductSharingActivitySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D928FC1E2517A500D6F37F /* ProductSharingActivitySource.swift */; };
+		13DBA7A11D82BB39001E6832 /* GRUserProfileStatisticsTabbedPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBA7A01D82BB39001E6832 /* GRUserProfileStatisticsTabbedPanel.swift */; };
+		13E36D271D2A686200A74DD9 /* GRProductDetailReviewsListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E36D261D2A686200A74DD9 /* GRProductDetailReviewsListDataSource.swift */; };
+		13E6AD321D24ECA000C94E04 /* GRScoreDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E6AD311D24ECA000C94E04 /* GRScoreDistributionView.swift */; };
+		13EB53161DF844FA00AA6C7B /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB53151DF844FA00AA6C7B /* UIViewController.swift */; };
+		13EB53181DF8454C00AA6C7B /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB53171DF8454C00AA6C7B /* Int.swift */; };
+		13EB531A1DF8457E00AA6C7B /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB53191DF8457E00AA6C7B /* Integer.swift */; };
+		13EB531E1DF845B500AA6C7B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB531D1DF845B500AA6C7B /* Array.swift */; };
+		13EB53201DF848F500AA6C7B /* Various.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB531F1DF848F500AA6C7B /* Various.swift */; };
+		13F349C61E0A794700612D8B /* GRProductSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F349C51E0A794700612D8B /* GRProductSearchView.swift */; };
+		13F349C81E0A957000612D8B /* GRProductSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F349C71E0A957000612D8B /* GRProductSearchViewController.swift */; };
+		13F349CA1E0A9FED00612D8B /* GRProductSearchAutocompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F349C91E0A9FED00612D8B /* GRProductSearchAutocompletionView.swift */; };
+		13F349CC1E0AA00200612D8B /* GRProductSearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F349CB1E0AA00200612D8B /* GRProductSearchResultsView.swift */; };
+		13F349CE1E0AC1CE00612D8B /* GRProductSearchPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F349CD1E0AC1CE00612D8B /* GRProductSearchPlaceholder.swift */; };
+		13F88A9C1CEDF79500D642A0 /* GRClientTooOldErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88A991CEDF79500D642A0 /* GRClientTooOldErrorViewController.swift */; };
+		13F88A9D1CEDF79500D642A0 /* GRDeactivatedUserErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88A9A1CEDF79500D642A0 /* GRDeactivatedUserErrorViewController.swift */; };
+		13F88A9E1CEDF79500D642A0 /* GREmailNotVerifiedErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88A9B1CEDF79500D642A0 /* GREmailNotVerifiedErrorViewController.swift */; };
+		13F88AA21CEDF7B400D642A0 /* GRClientTooOldErrorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88A9F1CEDF7B400D642A0 /* GRClientTooOldErrorViewProtocol.swift */; };
+		13F88AA31CEDF7B400D642A0 /* GRDeactivatedUserErrorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88AA01CEDF7B400D642A0 /* GRDeactivatedUserErrorViewProtocol.swift */; };
+		13F88AA41CEDF7B400D642A0 /* GREmailNotVerifiedViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88AA11CEDF7B400D642A0 /* GREmailNotVerifiedViewProtocol.swift */; };
+		13F88AA81CEDF7D400D642A0 /* GRClientTooOldErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88AA51CEDF7D400D642A0 /* GRClientTooOldErrorView.swift */; };
+		13F88AA91CEDF7D400D642A0 /* GRDeactivatedUserErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88AA61CEDF7D400D642A0 /* GRDeactivatedUserErrorView.swift */; };
+		13F88AAA1CEDF7D400D642A0 /* GREmailNotVerifiedErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F88AA71CEDF7D400D642A0 /* GREmailNotVerifiedErrorView.swift */; };
+		1B0A2F731CBFC09000E3B936 /* GRAutocompletionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A2F721CBFC09000E3B936 /* GRAutocompletionTableViewCell.swift */; };
+		1B0A2F751CBFC1BE00E3B936 /* GRAutocompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0A2F741CBFC1BE00E3B936 /* GRAutocompletionView.swift */; };
+		1B1D9C8C1C776AFA003949DC /* GREditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D9C8B1C776AFA003949DC /* GREditProfileViewController.swift */; };
+		1B1D9C8E1C776B45003949DC /* GREditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1D9C8D1C776B45003949DC /* GREditProfileView.swift */; };
+		1B263ED91CE52D1C00E78C9A /* GRAddProductViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B263ED81CE52D1C00E78C9A /* GRAddProductViewController+UITableViewDataSource.swift */; };
+		1B263EDB1CE52F1100E78C9A /* GRAddProductViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B263EDA1CE52F1100E78C9A /* GRAddProductViewController+UITableViewDelegate.swift */; };
+		1B263EDD1CE61EA300E78C9A /* GRHomeViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B263EDC1CE61EA300E78C9A /* GRHomeViewController+UICollectionViewDataSource.swift */; };
+		1B263EDF1CE6203D00E78C9A /* GRHomeViewController+UICollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B263EDE1CE6203D00E78C9A /* GRHomeViewController+UICollectionViewDelegate.swift */; };
+		1B2BAD5A1CA4857600FD2012 /* GRTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BAD591CA4857600FD2012 /* GRTutorialView.swift */; };
+		1B2BAD5C1CA4858400FD2012 /* GRTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BAD5B1CA4858400FD2012 /* GRTutorialViewController.swift */; };
+		1B300B8D1CC4414C00C96F36 /* GRSearchCompletionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B300B8C1CC4414C00C96F36 /* GRSearchCompletionProtocol.swift */; };
+		1B35F50F1D657568006D520A /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35F50E1D657568006D520A /* UserImage.swift */; };
+		1B535A1B1BE2DB0C006E7E3A /* GRWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B535A1A1BE2DB0C006E7E3A /* GRWelcomeViewController.swift */; };
+		1B556BC61C77434000A88898 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B556BC21C77434000A88898 /* Ubuntu-B.ttf */; };
+		1B556BC71C77434000A88898 /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B556BC31C77434000A88898 /* Ubuntu-L.ttf */; };
+		1B556BC81C77434000A88898 /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B556BC41C77434000A88898 /* Ubuntu-M.ttf */; };
+		1B556BC91C77434000A88898 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B556BC51C77434000A88898 /* Ubuntu-R.ttf */; };
+		1B598BE41CCA762E007982B7 /* AnimatedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B598BE31CCA762E007982B7 /* AnimatedCircle.swift */; };
+		1B5A58461CEA719A00D67852 /* GRProfileView+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A58451CEA719A00D67852 /* GRProfileView+API.swift */; };
+		1B74440B1BE2D794004AF89D /* GRWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74440A1BE2D794004AF89D /* GRWelcomeView.swift */; };
+		1B7FCADA1BE2C04B0089849F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FCAD91BE2C04B0089849F /* AppDelegate.swift */; };
+		1B7FCADF1BE2C04B0089849F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FCADD1BE2C04B0089849F /* Main.storyboard */; };
+		1B7FCAE11BE2C04B0089849F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FCAE01BE2C04B0089849F /* Assets.xcassets */; };
+		1B7FCAE41BE2C04B0089849F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FCAE21BE2C04B0089849F /* LaunchScreen.storyboard */; };
+		1B82560C1D4C836D000E9F68 /* GRNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82560B1D4C836D000E9F68 /* GRNotification.swift */; };
+		1B82560E1D4C83ED000E9F68 /* GRNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82560D1D4C83ED000E9F68 /* GRNotificationView.swift */; };
+		1B8256101D4C8455000E9F68 /* GRNotificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82560F1D4C8455000E9F68 /* GRNotificationConstants.swift */; };
+		1B9004E61CBB85C000DDF0D0 /* GRModalViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9004E51CBB85C000DDF0D0 /* GRModalViewControllerDelegate.swift */; };
+		1B9004E81CBB8FF400DDF0D0 /* GROrderItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9004E71CBB8FF400DDF0D0 /* GROrderItemsView.swift */; };
+		1B9004EA1CBB900600DDF0D0 /* GROrderItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9004E91CBB900600DDF0D0 /* GROrderItemsViewController.swift */; };
+		1B956B571D14B2B900E2E018 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B956B561D14B2B900E2E018 /* Helper.swift */; };
+		1B956B5A1D14B39D00E2E018 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B956B591D14B39D00E2E018 /* CGSize.swift */; };
+		1B956B5C1D17AFFA00E2E018 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B956B5B1D17AFFA00E2E018 /* String.swift */; };
+		1BACF7641CFDB78700A50322 /* GRProfileViewController+UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BACF7631CFDB78700A50322 /* GRProfileViewController+UserProfile.swift */; };
+		1BB0B54A1CD20630000F7156 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0B5491CD20630000F7156 /* Review.swift */; };
+		1BD5ABE21CEA79B9003026AC /* GRShoppingListViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD5ABE11CEA79B9003026AC /* GRShoppingListViewController+UITableViewDataSource.swift */; };
+		1BD5ABE41CEA79C4003026AC /* GRShoppingListViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD5ABE31CEA79C4003026AC /* GRShoppingListViewController+UITableViewDelegate.swift */; };
+		1BDD8BA11D88053500E23235 /* DeepLinksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD8BA01D88053500E23235 /* DeepLinksManager.swift */; };
+		1BE12C961D4B2EC400584A5F /* GRLocalNotificationHUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE12C951D4B2EC400584A5F /* GRLocalNotificationHUB.swift */; };
+		401104FD1E1EA558000D778D /* GRRelatedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401104FC1E1EA558000D778D /* GRRelatedProductView.swift */; };
+		401104FF1E1EA574000D778D /* GRRelatedProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401104FE1E1EA574000D778D /* GRRelatedProductsView.swift */; };
+		4058D2AC1E51C0F200E0F89E /* GRBrandProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4058D2AB1E51C0F200E0F89E /* GRBrandProductsListViewController.swift */; };
+		4058D2AE1E51C23200E0F89E /* GRBrandProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4058D2AD1E51C23200E0F89E /* GRBrandProductsListView.swift */; };
+		407F366E1E44EA02003796E8 /* GRBrandsSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F366D1E44EA02003796E8 /* GRBrandsSearchView.swift */; };
+		407F36701E44EA4C003796E8 /* GRBrandsSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F366F1E44EA4C003796E8 /* GRBrandsSearchViewController.swift */; };
+		40C7B2FA1DBE123A003A9A59 /* GRUsersSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7B2F91DBE123A003A9A59 /* GRUsersSearchViewController.swift */; };
+		40C7B2FC1DBE124B003A9A59 /* GRUsersSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7B2FB1DBE124B003A9A59 /* GRUsersSearchView.swift */; };
+		40D6BF3B1DB78D11002C3905 /* GRUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BF3A1DB78D11002C3905 /* GRUserView.swift */; };
+		40F3B6C91E13DBE6000A1A41 /* GRProductSearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3B6C81E13DBE6000A1A41 /* GRProductSearchFilterViewController.swift */; };
+		40F3B6CB1E13DC5F000A1A41 /* GRProductSearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3B6CA1E13DC5F000A1A41 /* GRProductSearchFilterView.swift */; };
+		758AA1AF9D3DDCFAE94BA4D4 /* Pods_Grocerest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D809B726F9BEB252DCB3A793 /* Pods_Grocerest.framework */; };
+		9A0297211D316863005981F4 /* GRReputationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0297201D316862005981F4 /* GRReputationViewController.swift */; };
+		9A0297231D316894005981F4 /* GRReputationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0297221D316894005981F4 /* GRReputationView.swift */; };
+		9A0297251D336E6A005981F4 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0297241D336E6A005981F4 /* UIFont.swift */; };
+		9A02972B1D343733005981F4 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02972A1D343733005981F4 /* UILabel.swift */; };
+		9A02A06E1C5970EF004B8299 /* GRSynchUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02A06D1C5970EF004B8299 /* GRSynchUserData.swift */; };
+		9A030D8B1C59813F009E709F /* GRUserClassifiedProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A030D8A1C59813F009E709F /* GRUserClassifiedProducts.swift */; };
+		9A078A4A1DBEAA71007559EA /* GRUserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A078A491DBEAA71007559EA /* GRUserStats.swift */; };
+		9A0C39C31DA7F4B400D96F8F /* AfterDismissDispatcherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C39C21DA7F4B400D96F8F /* AfterDismissDispatcherProtocol.swift */; };
+		9A0F68261C50F587008437DE /* GRProfileToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F68251C50F587008437DE /* GRProfileToolbar.swift */; };
+		9A10C3701C22BB7D00366C68 /* GRSingleProductMoreActionsModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10C36F1C22BB7D00366C68 /* GRSingleProductMoreActionsModalView.swift */; };
+		9A10C3721C22BB8D00366C68 /* GRSingleProductMoreActionsModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10C3711C22BB8D00366C68 /* GRSingleProductMoreActionsModalViewController.swift */; };
+		9A10C3741C22C24500366C68 /* GRSingleProductMoreActionsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10C3731C22C24500366C68 /* GRSingleProductMoreActionsProtocol.swift */; };
+		9A1891201C3495B300CE72C2 /* GRBarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A18911F1C3495B300CE72C2 /* GRBarcodeScannerViewController.swift */; };
+		9A1891221C34BB0D00CE72C2 /* GRAddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1891211C34BB0D00CE72C2 /* GRAddFriendsViewController.swift */; };
+		9A1891241C34BB1500CE72C2 /* GRAddFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1891231C34BB1500CE72C2 /* GRAddFriendsView.swift */; };
+		9A1891261C34BC0F00CE72C2 /* GRAddFriendsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1891251C34BC0F00CE72C2 /* GRAddFriendsProtocol.swift */; };
+		9A19A0981BE7D39C00CB56F8 /* GRHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A0971BE7D39C00CB56F8 /* GRHomeViewController.swift */; };
+		9A19A09A1BE7D3A700CB56F8 /* GRHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A0991BE7D3A700CB56F8 /* GRHomeView.swift */; };
+		9A19A09D1BE82C5600CB56F8 /* GRCheckboxProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A09C1BE82C5600CB56F8 /* GRCheckboxProtocol.swift */; };
+		9A19A09F1BE82CAA00CB56F8 /* GRCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A09E1BE82CAA00CB56F8 /* GRCheckbox.swift */; };
+		9A19A0A11BE8C6BC00CB56F8 /* GRReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A0A01BE8C6BC00CB56F8 /* GRReviewViewController.swift */; };
+		9A19A0A31BE8C6D000CB56F8 /* GRReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A0A21BE8C6D000CB56F8 /* GRReviewView.swift */; };
+		9A1ACBBA1C6BBED200DDA44C /* GRMoreActionsForListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ACBB91C6BBED200DDA44C /* GRMoreActionsForListView.swift */; };
+		9A1ACBBC1C6BBEDF00DDA44C /* GRMoreActionsForListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ACBBB1C6BBEDF00DDA44C /* GRMoreActionsForListViewController.swift */; };
+		9A1ACBBE1C6BFC0900DDA44C /* GRModifyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ACBBD1C6BFC0900DDA44C /* GRModifyListView.swift */; };
+		9A1ACBC01C6BFC1100DDA44C /* GRModifyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ACBBF1C6BFC1100DDA44C /* GRModifyListViewController.swift */; };
+		9A1ACBC21C6C7D9300DDA44C /* GREditFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ACBC11C6C7D9300DDA44C /* GREditFriendsTableViewCell.swift */; };
+		9A1C36411BF246B80037F198 /* GRReviewBoxWriteCommentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C36401BF246B80037F198 /* GRReviewBoxWriteCommentProtocol.swift */; };
+		9A1C36431BF255520037F198 /* GRCommentModalViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C36421BF255520037F198 /* GRCommentModalViewProtocol.swift */; };
+		9A1DE5DA1C2839DC00DE31BE /* GREditInsertedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DE5D91C2839DC00DE31BE /* GREditInsertedProductView.swift */; };
+		9A1DE5DC1C2839F200DE31BE /* GREditInsertedProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DE5DB1C2839F200DE31BE /* GREditInsertedProductController.swift */; };
+		9A21C6321C11CC2D0076551B /* GRAddProductProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6271C11CC2D0076551B /* GRAddProductProtocol.swift */; };
+		9A21C6331C11CC2D0076551B /* GRCategoryListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6281C11CC2D0076551B /* GRCategoryListProtocol.swift */; };
+		9A21C6341C11CC2D0076551B /* GRCheckboxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6291C11CC2D0076551B /* GRCheckboxDelegate.swift */; };
+		9A21C6361C11CC2D0076551B /* GRListsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C62B1C11CC2D0076551B /* GRListsProtocol.swift */; };
+		9A21C6371C11CC2D0076551B /* GRLoginViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C62C1C11CC2D0076551B /* GRLoginViewDelegate.swift */; };
+		9A21C6381C11CC2D0076551B /* GRMenuProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C62D1C11CC2D0076551B /* GRMenuProtocol.swift */; };
+		9A21C63A1C11CC2D0076551B /* GRReviewBoxProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C62F1C11CC2D0076551B /* GRReviewBoxProtocol.swift */; };
+		9A21C6421C11CC4A0076551B /* GRAddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C63D1C11CC4A0076551B /* GRAddProductViewController.swift */; };
+		9A21C6431C11CC4A0076551B /* GRCreateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C63E1C11CC4A0076551B /* GRCreateListViewController.swift */; };
+		9A21C6441C11CC4A0076551B /* GRMyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C63F1C11CC4A0076551B /* GRMyListViewController.swift */; };
+		9A21C6451C11CC4A0076551B /* GROneLineProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6401C11CC4A0076551B /* GROneLineProductViewCell.swift */; };
+		9A21C6461C11CC4A0076551B /* GRShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6411C11CC4A0076551B /* GRShoppingListViewController.swift */; };
+		9A21C64F1C11CC640076551B /* GRAddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6471C11CC640076551B /* GRAddProductView.swift */; };
+		9A21C6501C11CC640076551B /* GRCreateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6481C11CC640076551B /* GRCreateListView.swift */; };
+		9A21C6511C11CC640076551B /* GRInviteFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C6491C11CC640076551B /* GRInviteFriendsView.swift */; };
+		9A21C6521C11CC640076551B /* GRMyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C64A1C11CC640076551B /* GRMyListView.swift */; };
+		9A21C6531C11CC640076551B /* GRMyListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C64B1C11CC640076551B /* GRMyListViewCell.swift */; };
+		9A21C6541C11CC640076551B /* GRShoppingItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C64C1C11CC640076551B /* GRShoppingItemViewCell.swift */; };
+		9A21C6551C11CC640076551B /* GRShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C64D1C11CC640076551B /* GRShoppingListView.swift */; };
+		9A21C6561C11CC640076551B /* GRTopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C64E1C11CC640076551B /* GRTopListView.swift */; };
+		9A21C6601C11CD690076551B /* GRCreateListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C65F1C11CD690076551B /* GRCreateListProtocol.swift */; };
+		9A2490031C3C5BD4000EA9CF /* GRProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2490021C3C5BD4000EA9CF /* GRProductsViewController.swift */; };
+		9A25DC3B1C3991AE00DB0B0B /* GRPostReviewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A25DC3A1C3991AE00DB0B0B /* GRPostReviewProtocol.swift */; };
+		9A269BC01C4B0005005D4D9F /* GRSubCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A269BBF1C4B0005005D4D9F /* GRSubCategoryTableViewCell.swift */; };
+		9A28DB691C42CE26009DA8B4 /* GRAutocompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28DB681C42CE26009DA8B4 /* GRAutocompleteView.swift */; };
+		9A28DB6B1C42CE30009DA8B4 /* GRAutocompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A28DB6A1C42CE30009DA8B4 /* GRAutocompleteViewController.swift */; };
+		9A303FE61DCBF0FC00555EA4 /* CustomActivitySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A303FE51DCBF0FC00555EA4 /* CustomActivitySource.swift */; };
+		9A303FE81DCBF9A400555EA4 /* GRReviewsToCompletePlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A303FE71DCBF9A400555EA4 /* GRReviewsToCompletePlaceHolderView.swift */; };
+		9A304ED01C5FA0090010ECD1 /* GRUserProductsClassified.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A304ECF1C5FA0090010ECD1 /* GRUserProductsClassified.swift */; };
+		9A3CE7871DCBFE1E00662247 /* GRLatestReviewsPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CE7861DCBFE1E00662247 /* GRLatestReviewsPlaceHolderView.swift */; };
+		9A3F850F1BE3B8BC00212FE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F850E1BE3B8BC00212FE0 /* Constants.swift */; };
+		9A3F94CC1DD2644A00B5879F /* GRInvitationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F94CB1DD2644A00B5879F /* GRInvitationCodeViewController.swift */; };
+		9A3F94CF1DD2648800B5879F /* GRInvitationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F94CE1DD2648800B5879F /* GRInvitationCodeView.swift */; };
+		9A4312FB1C9E168C00F86C6C /* GRGetUserContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4312FA1C9E168C00F86C6C /* GRGetUserContacts.swift */; };
+		9A43C7271D2AD0C900258868 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43C7261D2AD0C900258868 /* UIColor.swift */; };
+		9A4DE4C01C427AE6007D4AF1 /* GRSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4BF1C427AE6007D4AF1 /* GRSearchBarView.swift */; };
+		9A4DE4C41C427AF9007D4AF1 /* GRSearchBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4C31C427AF9007D4AF1 /* GRSearchBarProtocol.swift */; };
+		9A52337D1C1B4BE600FC6831 /* GRRegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52337C1C1B4BE600FC6831 /* GRRegisterUser.swift */; };
+		9A52337F1C1B56DC00FC6831 /* GRRegisterUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52337E1C1B56DC00FC6831 /* GRRegisterUserViewModel.swift */; };
+		9A565E1E1BECD0BF00301A87 /* GRRegistrationViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A565E1D1BECD0BF00301A87 /* GRRegistrationViewProtocol.swift */; };
+		9A565E201BED008200301A87 /* GRLoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A565E1F1BED008200301A87 /* GRLoginViewProtocol.swift */; };
+		9A6815BF1C4E7987004A99F4 /* GRPredefinedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6815BE1C4E7987004A99F4 /* GRPredefinedListViewController.swift */; };
+		9A6815C11C4E7995004A99F4 /* GRPredefinedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6815C01C4E7995004A99F4 /* GRPredefinedListView.swift */; };
+		9A6869C81C29B85000871751 /* GRCustomNavigationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6869C71C29B85000871751 /* GRCustomNavigationAnimationController.swift */; };
+		9A6B2DBA1C6500E3006134BC /* GRCaptureProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B2DB91C6500E3006134BC /* GRCaptureProductView.swift */; };
+		9A6B2DBC1C6500EA006134BC /* GRCaptureProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B2DBB1C6500EA006134BC /* GRCaptureProductViewController.swift */; };
+		9A6D13441C354C1000F5C1A0 /* GRFriendsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D13431C354C1000F5C1A0 /* GRFriendsViewCell.swift */; };
+		9A6DEC0F1C8FA9E2003E0ABC /* GRUpdateHomeListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6DEC0E1C8FA9E2003E0ABC /* GRUpdateHomeListProtocol.swift */; };
+		9A7203E71BE901D3004D4897 /* GRReviewBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203E61BE901D3004D4897 /* GRReviewBoxView.swift */; };
+		9A7203F31BE9155C004D4897 /* GRReviewBoxVote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203F21BE9155C004D4897 /* GRReviewBoxVote.swift */; };
+		9A7203F51BE9156E004D4897 /* GRReviewBoxFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203F41BE9156E004D4897 /* GRReviewBoxFrequency.swift */; };
+		9A7203F71BE9157E004D4897 /* GRReviewBoxWriteComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203F61BE9157E004D4897 /* GRReviewBoxWriteComment.swift */; };
+		9A7203F91BE91588004D4897 /* GRReviewBoxComented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203F81BE91588004D4897 /* GRReviewBoxComented.swift */; };
+		9A7203FB1BE970BB004D4897 /* GRReviewBoxVoteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203FA1BE970BB004D4897 /* GRReviewBoxVoteProtocol.swift */; };
+		9A7203FD1BEA5EDE004D4897 /* GRCommentModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203FC1BEA5EDD004D4897 /* GRCommentModalView.swift */; };
+		9A7203FF1BEA5EE5004D4897 /* GRCommentModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7203FE1BEA5EE5004D4897 /* GRCommentModalViewController.swift */; };
+		9A78FFC91C3194B60081D4A5 /* GROnBoardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78FFC81C3194B60081D4A5 /* GROnBoardData.swift */; };
+		9A79256A1BF3591B0039DDA8 /* GRMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7925691BF3591B0039DDA8 /* GRMenuView.swift */; };
+		9A79256C1BF3592C0039DDA8 /* GRMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A79256B1BF3592C0039DDA8 /* GRMenuViewController.swift */; };
+		9A794D701C3F3D4C00D36A37 /* GRListButtonAsIconViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A794D6F1C3F3D4C00D36A37 /* GRListButtonAsIconViewCollectionViewCell.swift */; };
+		9A8348D41BE59F1200A46C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8348D31BE59F1200A46C4B /* Foundation.framework */; };
+		9A8348D61BE59F1C00A46C4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8348D51BE59F1C00A46C4B /* CoreGraphics.framework */; };
+		9A8348D81BE59F2B00A46C4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8348D71BE59F2B00A46C4B /* UIKit.framework */; };
+		9A8348DA1BE59F3500A46C4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8348D91BE59F3500A46C4B /* QuartzCore.framework */; };
+		9A8348DC1BE624C100A46C4B /* GRCategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8348DB1BE624C100A46C4B /* GRCategoryViewCell.swift */; };
+		9A8348DE1BE6250C00A46C4B /* GRCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8348DD1BE6250C00A46C4B /* GRCategoryListView.swift */; };
+		9A8348E01BE6252600A46C4B /* GRCategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8348DF1BE6252600A46C4B /* GRCategoryListViewController.swift */; };
+		9A8567F51C1CFC2D008AC346 /* GRUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8567F41C1CFC2D008AC346 /* GRUserViewModel.swift */; };
+		9A85D2531C1AFC3F00F30810 /* GRAuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D2521C1AFC3F00F30810 /* GRAuthUser.swift */; };
+		9A85D2551C1AFC6E00F30810 /* GRAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D2541C1AFC6E00F30810 /* GRAuthViewModel.swift */; };
+		9A871F131C566AED0068B925 /* GRZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A871F121C566AED0068B925 /* GRZoomView.swift */; };
+		9A871F151C566AF60068B925 /* GRZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A871F141C566AF60068B925 /* GRZoomViewController.swift */; };
+		9A8ED3D21C8DA608002F3EE8 /* GRMoreActionsForProductProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8ED3D11C8DA608002F3EE8 /* GRMoreActionsForProductProtocol.swift */; };
+		9A959D9A1C3DDA650009D6CC /* GRAfterReviewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A959D991C3DDA650009D6CC /* GRAfterReviewProtocol.swift */; };
+		9A959DA01C3E9F170009D6CC /* GRProductsResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A959D9F1C3E9F170009D6CC /* GRProductsResultTableViewCell.swift */; };
+		9A963E351BED0F1A00245F01 /* GRToolBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A963E341BED0F1A00245F01 /* GRToolBarProtocol.swift */; };
+		9A965BED1C3CA67100B7C327 /* GRSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A965BEC1C3CA67100B7C327 /* GRSettingsView.swift */; };
+		9A965BEF1C3CA67D00B7C327 /* GRSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A965BEE1C3CA67D00B7C327 /* GRSettingsViewController.swift */; };
+		9A9C5CC01C9C0CA500CBACA0 /* GRGenericPersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C5CBF1C9C0CA500CBACA0 /* GRGenericPersonTableViewCell.swift */; };
+		9A9C5CC21C9C0CFE00CBACA0 /* GRInviteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C5CC11C9C0CFE00CBACA0 /* GRInviteTableViewController.swift */; };
+		9A9C5CC41C9C0F8F00CBACA0 /* GRInviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C5CC31C9C0F8F00CBACA0 /* GRInviteView.swift */; };
+		9A9C5CC61C9C10CC00CBACA0 /* GRInviteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C5CC51C9C10CC00CBACA0 /* GRInviteProtocol.swift */; };
+		9A9D5F891C38946000A9C3DD /* GRFriendsDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D5F881C38946000A9C3DD /* GRFriendsDataProtocol.swift */; };
+		9AA0EB151BE4E6D1000CAF66 /* GRToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0EB141BE4E6D1000CAF66 /* GRToolbar.swift */; };
+		9AA0EB191BE56DEA000CAF66 /* GRRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0EB181BE56DEA000CAF66 /* GRRegistrationView.swift */; };
+		9AA0EB1B1BE56DF8000CAF66 /* GRRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0EB1A1BE56DF8000CAF66 /* GRRegistrationViewController.swift */; };
+		9AA7580F1D40BFD8006FEE36 /* GRReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7580E1D40BFD8006FEE36 /* GRReportViewController.swift */; };
+		9AA758111D40BFE5006FEE36 /* GRReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA758101D40BFE5006FEE36 /* GRReportView.swift */; };
+		9AA758131D4220A0006FEE36 /* GRAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA758121D4220A0006FEE36 /* GRAlertViewController.swift */; };
+		9AA758151D42282B006FEE36 /* GRAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA758141D42282B006FEE36 /* GRAlertView.swift */; };
+		9AA758171D423A48006FEE36 /* GRCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA758161D423A48006FEE36 /* GRCustomButtons.swift */; };
+		9AAC91471C40714700A42ED3 /* GRModalRecensioneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC91461C40714700A42ED3 /* GRModalRecensioneViewController.swift */; };
+		9AAC91491C40714F00A42ED3 /* GRModalRecensioneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC91481C40714F00A42ED3 /* GRModalRecensioneView.swift */; };
+		9AB2A0C71CC8F9B800570E52 /* GRUserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2A0C61CC8F9B800570E52 /* GRUserStatsView.swift */; };
+		9AB2A0C91CC8FC9600570E52 /* GRUserNumericalStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2A0C81CC8FC9600570E52 /* GRUserNumericalStatView.swift */; };
+		9AB4350C1C47D1D800E4D8E4 /* GRMiniVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB4350B1C47D1D800E4D8E4 /* GRMiniVoteView.swift */; };
+		9AB8B4491C2009A500EFC34D /* GRProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8B4481C2009A500EFC34D /* GRProfileView.swift */; };
+		9AB8B44B1C2009C000EFC34D /* GRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8B44A1C2009C000EFC34D /* GRProfileViewController.swift */; };
+		9ABE19061C3C8F3E0082D3F4 /* GRProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE19051C3C8F3E0082D3F4 /* GRProductsListViewController.swift */; };
+		9ABE19081C3C8F4D0082D3F4 /* GRProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE19071C3C8F4D0082D3F4 /* GRProductsListView.swift */; };
+		9AC432D31C98234F003F925C /* 12679449_1259816744031665_123406415_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC432D21C98234F003F925C /* 12679449_1259816744031665_123406415_n.png */; };
+		9AC58BCA1D0EB00D00798C6E /* GRShoppingListMenuViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC58BC91D0EB00D00798C6E /* GRShoppingListMenuViewController+UITableViewDataSource.swift */; };
+		9AC58BCC1D0EB01600798C6E /* GRShoppingListMenuViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC58BCB1D0EB01600798C6E /* GRShoppingListMenuViewController+UITableViewDelegate.swift */; };
+		9AC58BCE1D0EB0AA00798C6E /* GRShoppingListMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC58BCD1D0EB0AA00798C6E /* GRShoppingListMenuTableViewCell.swift */; };
+		9ACC73A61C90A6E30032FA7B /* GRDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC73A51C90A6E20032FA7B /* GRDocumentsViewController.swift */; };
+		9ACC73A81C90A7140032FA7B /* GRDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC73A71C90A7140032FA7B /* GRDocumentsView.swift */; };
+		9ACC73AD1C90BF810032FA7B /* tos.html in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC73AB1C90BCF50032FA7B /* tos.html */; };
+		9ACC73B31C90CA130032FA7B /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC73B21C90CA130032FA7B /* privacy.html */; };
+		9ADD89131C85BA91005F3B20 /* GRHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD89121C85BA91005F3B20 /* GRHelpView.swift */; };
+		9ADD89151C85BA9F005F3B20 /* GRHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD89141C85BA9F005F3B20 /* GRHelpViewController.swift */; };
+		9ADD89171C85FCF3005F3B20 /* GRUserCategorizedProductsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD89161C85FCF3005F3B20 /* GRUserCategorizedProductsProtocol.swift */; };
+		9AEB969B1BE42AE200845CDE /* GRLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEB969A1BE42AE200845CDE /* GRLoginView.swift */; };
+		9AEB969D1BE42AED00845CDE /* GRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEB969C1BE42AED00845CDE /* GRLoginViewController.swift */; };
+		9AEDF89A1D0F733E0055427A /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDF8991D0F733E0055427A /* UITableViewCell.swift */; };
+		9AF1104B1C5AC1470017FCE9 /* GRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF1104A1C5AC1470017FCE9 /* GRNavigationController.swift */; };
+		9AF18C071C3C655700064722 /* GRProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF18C061C3C655600064722 /* GRProductsView.swift */; };
+		9AF18C091C3C759B00064722 /* GRProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF18C081C3C759B00064722 /* GRProductCollectionViewCell.swift */; };
+		9AF5CA091C9B042E008C83CD /* GRProfileUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5CA081C9B042E008C83CD /* GRProfileUpdateProtocol.swift */; };
+		9AF632D11C5E25E90077D644 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF632CF1C5E25E90077D644 /* ENSideMenu.swift */; };
+		9AF632D21C5E25E90077D644 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF632D01C5E25E90077D644 /* ENSideMenuNavigationController.swift */; };
+		9AF687B41C92FB7D00489A81 /* GRVoteReplicationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF687B31C92FB7D00489A81 /* GRVoteReplicationProtocol.swift */; };
+		9AF687B61C9314B600489A81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AF687B51C9314B600489A81 /* GoogleService-Info.plist */; };
+		9AF751C11D095166009A820C /* GRShoppingListMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF751C01D095166009A820C /* GRShoppingListMenuView.swift */; };
+		9AF751C31D095170009A820C /* GRShoppingListMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF751C21D095170009A820C /* GRShoppingListMenuViewController.swift */; };
+		9AF862371C5B946E0085619C /* GRMenuDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF862361C5B946E0085619C /* GRMenuDataProtocol.swift */; };
+		9AF862391C5B9D190085619C /* GRHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF862381C5B9D190085619C /* GRHomeCollectionViewCell.swift */; };
+		9AF8AEB01C18DC9E003B8E28 /* GRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8AEAF1C18DC9E003B8E28 /* GRUser.swift */; };
+		9AF8AEB21C18E580003B8E28 /* GRAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8AEB11C18E580003B8E28 /* GRAuthentication.swift */; };
+		9AF9245D1C3AE2890008DFAD /* GRShoppingItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9245C1C3AE2890008DFAD /* GRShoppingItemProtocol.swift */; };
+		9AFBE5591D454790009340D9 /* GRUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE5581D454790009340D9 /* GRUserProfileViewController.swift */; };
+		9AFBE55B1D4547A2009340D9 /* GRUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE55A1D4547A2009340D9 /* GRUserProfileView.swift */; };
+		9AFBE55D1D46BBC8009340D9 /* GRUserReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE55C1D46BBC8009340D9 /* GRUserReviewTableViewCell.swift */; };
+		9AFBE55F1D477C50009340D9 /* GRUserProfileViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE55E1D477C50009340D9 /* GRUserProfileViewController+UITableViewDelegate.swift */; };
+		9AFBE5611D477C5E009340D9 /* GRUserProfileViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE5601D477C5E009340D9 /* GRUserProfileViewController+UITableViewDataSource.swift */; };
+		9AFBE5631D47D971009340D9 /* GRUserReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE5621D47D971009340D9 /* GRUserReviewsViewController.swift */; };
+		9AFBE5651D47D97A009340D9 /* GRUserReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE5641D47D97A009340D9 /* GRUserReviewsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		131B38D21DA6520600460BC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D0F305C1CDCC33500590511 /* GRShoppingListAutocompleteBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingListAutocompleteBarView.swift; sourceTree = "<group>"; };
+		0D2889171E799C4400868F66 /* RCTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTViewController.swift; sourceTree = "<group>"; };
+		0D2889531E7AA24200868F66 /* EventManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventManagerBridge.m; sourceTree = "<group>"; };
+		0D2889551E7AA2D300868F66 /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		0D2AFB581CC6041E00F7845A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D4A56AD1E798DC700B4FEA1 /* Development.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Development.storyboard; sourceTree = "<group>"; };
+		0D4A56AF1E798DFD00B4FEA1 /* GRProductAvailabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductAvailabilityView.swift; sourceTree = "<group>"; };
+		0D55AB3B1DEC93CB00037E8E /* GrocerestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrocerestAPI.swift; sourceTree = "<group>"; };
+		0DA0A9FD1E32AFC100DBB15D /* TuneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuneManager.swift; sourceTree = "<group>"; };
+		0DA2595A1DD4EA5A00AE548E /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0DAB61641DD6169E00506A78 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		0DAEDA761DD45B48000E690E /* GRInvitationCodeInvalidErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInvitationCodeInvalidErrorViewController.swift; sourceTree = "<group>"; };
+		0DAEDA781DD45C9A000E690E /* GRInvitationCodeInvalidErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInvitationCodeInvalidErrorView.swift; sourceTree = "<group>"; };
+		0DE11C821D8A87BA0046F7A4 /* Grocerest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grocerest.entitlements; sourceTree = "<group>"; };
+		1309BA971D6D8FBE00583EE2 /* GRStatProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRStatProgress.swift; sourceTree = "<group>"; };
+		1313A8691CFC2639001F5DC8 /* GRNetworkErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNetworkErrorView.swift; sourceTree = "<group>"; };
+		1313A86B1CFC2667001F5DC8 /* GRNetworkErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNetworkErrorViewController.swift; sourceTree = "<group>"; };
+		131C94DC1D7573B300622C7F /* GRCategoryLevelProgressStatisticsPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoryLevelProgressStatisticsPanel.swift; sourceTree = "<group>"; };
+		131D30151D814066009AE769 /* GRBadgesTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBadgesTab.swift; sourceTree = "<group>"; };
+		131D30181D81500C009AE769 /* GRBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBadge.swift; sourceTree = "<group>"; };
+		131D301A1D8172B2009AE769 /* GRBadgeWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBadgeWidget.swift; sourceTree = "<group>"; };
+		131D7FA61D7983C6009DE400 /* GRReviewsStatisticsCategoryTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewsStatisticsCategoryTable.swift; sourceTree = "<group>"; };
+		131ED3991D38C2D600AAFA74 /* GRReviewsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewsListViewController.swift; sourceTree = "<group>"; };
+		131ED39B1D38C2E100AAFA74 /* GRReviewsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewsListView.swift; sourceTree = "<group>"; };
+		13204D1C1D099F82002313E8 /* GRPasswordChangeAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPasswordChangeAlertViewController.swift; sourceTree = "<group>"; };
+		13204D1E1D09A4E5002313E8 /* GRPasswordChangeAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPasswordChangeAlertView.swift; sourceTree = "<group>"; };
+		1324E2941D1138490042A096 /* GRDateSelectorAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDateSelectorAlertViewController.swift; sourceTree = "<group>"; };
+		1324E2961D11386F0042A096 /* GRDateSelectorAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDateSelectorAlertView.swift; sourceTree = "<group>"; };
+		1328FF4A1D0FEA49005AC354 /* GRSelectorAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSelectorAlertViewController.swift; sourceTree = "<group>"; };
+		1328FF4C1D0FEA87005AC354 /* GRSelectorAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSelectorAlertView.swift; sourceTree = "<group>"; };
+		132B1EFB1D803DC70051CDA2 /* GRActivitiesTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRActivitiesTab.swift; sourceTree = "<group>"; };
+		132FAFAA1D225DD80076A7F1 /* GRProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductDetailViewController.swift; sourceTree = "<group>"; };
+		132FAFAC1D225DEE0076A7F1 /* GRProductDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductDetailView.swift; sourceTree = "<group>"; };
+		1334F1871E57300200160054 /* GRBrandsSearchFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsSearchFilterView.swift; sourceTree = "<group>"; };
+		1334F1891E57304100160054 /* GRBrandsSearchFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsSearchFilterViewController.swift; sourceTree = "<group>"; };
+		13363CCD1DB655B200046DD8 /* GRUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUsersViewController.swift; sourceTree = "<group>"; };
+		13363CCF1DB65B3F00046DD8 /* GRUsersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUsersView.swift; sourceTree = "<group>"; };
+		133DAB611DACEDE90058639A /* GRCategoryToExplore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoryToExplore.swift; sourceTree = "<group>"; };
+		133E4BFF1DAE2C880070D5BE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		133E4C021DAE2E920070D5BE /* GRCategoriesToExplore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoriesToExplore.swift; sourceTree = "<group>"; };
+		133EDDC91DB4B23400E8B3AF /* GRLastReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLastReview.swift; sourceTree = "<group>"; };
+		133EDDCB1DB5032500E8B3AF /* GRLastReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLastReviews.swift; sourceTree = "<group>"; };
+		133F71B01D1401F1003492AD /* GRNameChangeAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNameChangeAlertViewController.swift; sourceTree = "<group>"; };
+		133F71B21D14020B003492AD /* GRNameChangeAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNameChangeAlertView.swift; sourceTree = "<group>"; };
+		13406CAD1DABACED00256571 /* GRReviewToComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewToComplete.swift; sourceTree = "<group>"; };
+		134346B71CE1E11B008CB2BE /* GRMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMessageViewController.swift; sourceTree = "<group>"; };
+		134346B91CE1E136008CB2BE /* GRMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMessageView.swift; sourceTree = "<group>"; };
+		134346BB1CE1E147008CB2BE /* GRMessageViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMessageViewProtocol.swift; sourceTree = "<group>"; };
+		134346BD1CE21519008CB2BE /* GRCredentialsRecoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCredentialsRecoveryViewController.swift; sourceTree = "<group>"; };
+		134346BF1CE21552008CB2BE /* GRCredentialsRecoveryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCredentialsRecoveryView.swift; sourceTree = "<group>"; };
+		134346C11CE21599008CB2BE /* GRCredentialsRecoveryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCredentialsRecoveryProtocol.swift; sourceTree = "<group>"; };
+		135321071D6ED082006C8710 /* GRActivityLevelProgressStatisticsPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRActivityLevelProgressStatisticsPanel.swift; sourceTree = "<group>"; };
+		135587D11DA4EF530065D18B /* GRHomeBaloonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHomeBaloonView.swift; sourceTree = "<group>"; };
+		135C186C1E029D2800427B5F /* GRScannedProductNotFoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRScannedProductNotFoundView.swift; sourceTree = "<group>"; };
+		136709F81D76D711000C64FE /* GRCakeDiagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCakeDiagram.swift; sourceTree = "<group>"; };
+		136C7F501D7D815C00557AD3 /* GRCategoriesTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoriesTab.swift; sourceTree = "<group>"; };
+		1372FFA01CEEEB3F007E4128 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		1376E9991CD23C7300698BE8 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		13810A6E1E49A48F00FBE6B7 /* GRBrandDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandDetailView.swift; sourceTree = "<group>"; };
+		13810A701E49A4E900FBE6B7 /* GRBrandDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandDetailViewController.swift; sourceTree = "<group>"; };
+		13810A721E49AFAE00FBE6B7 /* GRLastIdTappedCacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLastIdTappedCacher.swift; sourceTree = "<group>"; };
+		13810A741E49C2F600FBE6B7 /* GRBrandDetailProductsListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandDetailProductsListDataSource.swift; sourceTree = "<group>"; };
+		138D78C31DA62EC3009B3715 /* GRBaloonMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBaloonMessage.swift; sourceTree = "<group>"; };
+		139940691D3D07F7006A8E78 /* GRReviewDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewDetailViewController.swift; sourceTree = "<group>"; };
+		1399406B1D3D0801006A8E78 /* GRReviewDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewDetailView.swift; sourceTree = "<group>"; };
+		13A5B7551E2619AD0073EA9B /* ReviewSharingActivitySource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewSharingActivitySource.swift; sourceTree = "<group>"; };
+		13AE8FD91DB0C1060057C809 /* GRReviewsToComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewsToComplete.swift; sourceTree = "<group>"; };
+		13BAA95A1E432DFB0028990B /* GRBrandsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsListViewController.swift; sourceTree = "<group>"; };
+		13BAA95D1E432E190028990B /* GRBrandsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsListView.swift; sourceTree = "<group>"; };
+		13BAA95F1E434A6C0028990B /* GRBrandsSearchResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsSearchResultsView.swift; sourceTree = "<group>"; };
+		13BAA9611E4368B80028990B /* GRBrandsResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsResultTableViewCell.swift; sourceTree = "<group>"; };
+		13BE03C31D6D789E0069387F /* GRProgressCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProgressCircle.swift; sourceTree = "<group>"; };
+		13C6D4AD1D2A971A0000867C /* GRReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewTableViewCell.swift; sourceTree = "<group>"; };
+		13D4D3261D055F5F009DF6CD /* GRHomeCollectionLoadingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHomeCollectionLoadingViewCell.swift; sourceTree = "<group>"; };
+		13D4D3281D0587A6009DF6CD /* GRLoadingTopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLoadingTopListView.swift; sourceTree = "<group>"; };
+		13D928FC1E2517A500D6F37F /* ProductSharingActivitySource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSharingActivitySource.swift; sourceTree = "<group>"; };
+		13DBA7A01D82BB39001E6832 /* GRUserProfileStatisticsTabbedPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserProfileStatisticsTabbedPanel.swift; sourceTree = "<group>"; };
+		13E36D261D2A686200A74DD9 /* GRProductDetailReviewsListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductDetailReviewsListDataSource.swift; sourceTree = "<group>"; };
+		13E6AD311D24ECA000C94E04 /* GRScoreDistributionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRScoreDistributionView.swift; sourceTree = "<group>"; };
+		13EB53151DF844FA00AA6C7B /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		13EB53171DF8454C00AA6C7B /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		13EB53191DF8457E00AA6C7B /* Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		13EB531D1DF845B500AA6C7B /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		13EB531F1DF848F500AA6C7B /* Various.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Various.swift; sourceTree = "<group>"; };
+		13F349C51E0A794700612D8B /* GRProductSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchView.swift; sourceTree = "<group>"; };
+		13F349C71E0A957000612D8B /* GRProductSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchViewController.swift; sourceTree = "<group>"; };
+		13F349C91E0A9FED00612D8B /* GRProductSearchAutocompletionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchAutocompletionView.swift; sourceTree = "<group>"; };
+		13F349CB1E0AA00200612D8B /* GRProductSearchResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchResultsView.swift; sourceTree = "<group>"; };
+		13F349CD1E0AC1CE00612D8B /* GRProductSearchPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchPlaceholder.swift; sourceTree = "<group>"; };
+		13F88A991CEDF79500D642A0 /* GRClientTooOldErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRClientTooOldErrorViewController.swift; sourceTree = "<group>"; };
+		13F88A9A1CEDF79500D642A0 /* GRDeactivatedUserErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDeactivatedUserErrorViewController.swift; sourceTree = "<group>"; };
+		13F88A9B1CEDF79500D642A0 /* GREmailNotVerifiedErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREmailNotVerifiedErrorViewController.swift; sourceTree = "<group>"; };
+		13F88A9F1CEDF7B400D642A0 /* GRClientTooOldErrorViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRClientTooOldErrorViewProtocol.swift; sourceTree = "<group>"; };
+		13F88AA01CEDF7B400D642A0 /* GRDeactivatedUserErrorViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDeactivatedUserErrorViewProtocol.swift; sourceTree = "<group>"; };
+		13F88AA11CEDF7B400D642A0 /* GREmailNotVerifiedViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREmailNotVerifiedViewProtocol.swift; sourceTree = "<group>"; };
+		13F88AA51CEDF7D400D642A0 /* GRClientTooOldErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRClientTooOldErrorView.swift; sourceTree = "<group>"; };
+		13F88AA61CEDF7D400D642A0 /* GRDeactivatedUserErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDeactivatedUserErrorView.swift; sourceTree = "<group>"; };
+		13F88AA71CEDF7D400D642A0 /* GREmailNotVerifiedErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREmailNotVerifiedErrorView.swift; sourceTree = "<group>"; };
+		1B0A2F721CBFC09000E3B936 /* GRAutocompletionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAutocompletionTableViewCell.swift; sourceTree = "<group>"; };
+		1B0A2F741CBFC1BE00E3B936 /* GRAutocompletionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAutocompletionView.swift; sourceTree = "<group>"; };
+		1B1D9C8B1C776AFA003949DC /* GREditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREditProfileViewController.swift; sourceTree = "<group>"; };
+		1B1D9C8D1C776B45003949DC /* GREditProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREditProfileView.swift; sourceTree = "<group>"; };
+		1B263ED81CE52D1C00E78C9A /* GRAddProductViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRAddProductViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		1B263EDA1CE52F1100E78C9A /* GRAddProductViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRAddProductViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		1B263EDC1CE61EA300E78C9A /* GRHomeViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRHomeViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		1B263EDE1CE6203D00E78C9A /* GRHomeViewController+UICollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRHomeViewController+UICollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		1B2BAD591CA4857600FD2012 /* GRTutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRTutorialView.swift; sourceTree = "<group>"; };
+		1B2BAD5B1CA4858400FD2012 /* GRTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRTutorialViewController.swift; sourceTree = "<group>"; };
+		1B300B8C1CC4414C00C96F36 /* GRSearchCompletionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSearchCompletionProtocol.swift; sourceTree = "<group>"; };
+		1B35F50E1D657568006D520A /* UserImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		1B535A1A1BE2DB0C006E7E3A /* GRWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRWelcomeViewController.swift; sourceTree = "<group>"; };
+		1B556BC21C77434000A88898 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		1B556BC31C77434000A88898 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
+		1B556BC41C77434000A88898 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		1B556BC51C77434000A88898 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		1B598BE31CCA762E007982B7 /* AnimatedCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedCircle.swift; sourceTree = "<group>"; };
+		1B5A58451CEA719A00D67852 /* GRProfileView+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRProfileView+API.swift"; sourceTree = "<group>"; };
+		1B74440A1BE2D794004AF89D /* GRWelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRWelcomeView.swift; sourceTree = "<group>"; };
+		1B7FCAD61BE2C04B0089849F /* Grocerest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grocerest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7FCAD91BE2C04B0089849F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B7FCADE1BE2C04B0089849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B7FCAE01BE2C04B0089849F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B7FCAE31BE2C04B0089849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B82560B1D4C836D000E9F68 /* GRNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNotification.swift; sourceTree = "<group>"; };
+		1B82560D1D4C83ED000E9F68 /* GRNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNotificationView.swift; sourceTree = "<group>"; };
+		1B82560F1D4C8455000E9F68 /* GRNotificationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNotificationConstants.swift; sourceTree = "<group>"; };
+		1B9004E51CBB85C000DDF0D0 /* GRModalViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRModalViewControllerDelegate.swift; sourceTree = "<group>"; };
+		1B9004E71CBB8FF400DDF0D0 /* GROrderItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GROrderItemsView.swift; sourceTree = "<group>"; };
+		1B9004E91CBB900600DDF0D0 /* GROrderItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GROrderItemsViewController.swift; sourceTree = "<group>"; };
+		1B956B561D14B2B900E2E018 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1B956B591D14B39D00E2E018 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		1B956B5B1D17AFFA00E2E018 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1BACF7631CFDB78700A50322 /* GRProfileViewController+UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRProfileViewController+UserProfile.swift"; sourceTree = "<group>"; };
+		1BB0B5491CD20630000F7156 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		1BD5ABE11CEA79B9003026AC /* GRShoppingListViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRShoppingListViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		1BD5ABE31CEA79C4003026AC /* GRShoppingListViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRShoppingListViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		1BDD8BA01D88053500E23235 /* DeepLinksManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLinksManager.swift; sourceTree = "<group>"; };
+		1BE12C951D4B2EC400584A5F /* GRLocalNotificationHUB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLocalNotificationHUB.swift; sourceTree = "<group>"; };
+		401104FC1E1EA558000D778D /* GRRelatedProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRelatedProductView.swift; sourceTree = "<group>"; };
+		401104FE1E1EA574000D778D /* GRRelatedProductsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRelatedProductsView.swift; sourceTree = "<group>"; };
+		4058D2AB1E51C0F200E0F89E /* GRBrandProductsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandProductsListViewController.swift; sourceTree = "<group>"; };
+		4058D2AD1E51C23200E0F89E /* GRBrandProductsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandProductsListView.swift; sourceTree = "<group>"; };
+		407F366D1E44EA02003796E8 /* GRBrandsSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsSearchView.swift; sourceTree = "<group>"; };
+		407F366F1E44EA4C003796E8 /* GRBrandsSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBrandsSearchViewController.swift; sourceTree = "<group>"; };
+		40C7B2F91DBE123A003A9A59 /* GRUsersSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUsersSearchViewController.swift; sourceTree = "<group>"; };
+		40C7B2FB1DBE124B003A9A59 /* GRUsersSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUsersSearchView.swift; sourceTree = "<group>"; };
+		40D6BF3A1DB78D11002C3905 /* GRUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserView.swift; sourceTree = "<group>"; };
+		40F3B6C81E13DBE6000A1A41 /* GRProductSearchFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchFilterViewController.swift; sourceTree = "<group>"; };
+		40F3B6CA1E13DC5F000A1A41 /* GRProductSearchFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductSearchFilterView.swift; sourceTree = "<group>"; };
+		4E3C5B7B43EE534EA0E6E942 /* Pods-Grocerest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocerest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grocerest/Pods-Grocerest.debug.xcconfig"; sourceTree = "<group>"; };
+		7878BF68CDE9FD2058168472 /* Pods-Grocerest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocerest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grocerest/Pods-Grocerest.release.xcconfig"; sourceTree = "<group>"; };
+		9A0297201D316862005981F4 /* GRReputationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReputationViewController.swift; sourceTree = "<group>"; };
+		9A0297221D316894005981F4 /* GRReputationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReputationView.swift; sourceTree = "<group>"; };
+		9A0297241D336E6A005981F4 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		9A02972A1D343733005981F4 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9A02A06D1C5970EF004B8299 /* GRSynchUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSynchUserData.swift; sourceTree = "<group>"; };
+		9A030D8A1C59813F009E709F /* GRUserClassifiedProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserClassifiedProducts.swift; sourceTree = "<group>"; };
+		9A078A491DBEAA71007559EA /* GRUserStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserStats.swift; sourceTree = "<group>"; };
+		9A0C39C21DA7F4B400D96F8F /* AfterDismissDispatcherProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterDismissDispatcherProtocol.swift; sourceTree = "<group>"; };
+		9A0F68251C50F587008437DE /* GRProfileToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProfileToolbar.swift; sourceTree = "<group>"; };
+		9A10C36F1C22BB7D00366C68 /* GRSingleProductMoreActionsModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSingleProductMoreActionsModalView.swift; sourceTree = "<group>"; };
+		9A10C3711C22BB8D00366C68 /* GRSingleProductMoreActionsModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSingleProductMoreActionsModalViewController.swift; sourceTree = "<group>"; };
+		9A10C3731C22C24500366C68 /* GRSingleProductMoreActionsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSingleProductMoreActionsProtocol.swift; sourceTree = "<group>"; };
+		9A18911F1C3495B300CE72C2 /* GRBarcodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRBarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		9A1891211C34BB0D00CE72C2 /* GRAddFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAddFriendsViewController.swift; sourceTree = "<group>"; };
+		9A1891231C34BB1500CE72C2 /* GRAddFriendsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAddFriendsView.swift; sourceTree = "<group>"; };
+		9A1891251C34BC0F00CE72C2 /* GRAddFriendsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAddFriendsProtocol.swift; sourceTree = "<group>"; };
+		9A19A0971BE7D39C00CB56F8 /* GRHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHomeViewController.swift; sourceTree = "<group>"; };
+		9A19A0991BE7D3A700CB56F8 /* GRHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHomeView.swift; sourceTree = "<group>"; };
+		9A19A09C1BE82C5600CB56F8 /* GRCheckboxProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCheckboxProtocol.swift; sourceTree = "<group>"; };
+		9A19A09E1BE82CAA00CB56F8 /* GRCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCheckbox.swift; sourceTree = "<group>"; };
+		9A19A0A01BE8C6BC00CB56F8 /* GRReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewViewController.swift; sourceTree = "<group>"; };
+		9A19A0A21BE8C6D000CB56F8 /* GRReviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewView.swift; sourceTree = "<group>"; };
+		9A1ACBB91C6BBED200DDA44C /* GRMoreActionsForListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMoreActionsForListView.swift; sourceTree = "<group>"; };
+		9A1ACBBB1C6BBEDF00DDA44C /* GRMoreActionsForListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMoreActionsForListViewController.swift; sourceTree = "<group>"; };
+		9A1ACBBD1C6BFC0900DDA44C /* GRModifyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRModifyListView.swift; sourceTree = "<group>"; };
+		9A1ACBBF1C6BFC1100DDA44C /* GRModifyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRModifyListViewController.swift; sourceTree = "<group>"; };
+		9A1ACBC11C6C7D9300DDA44C /* GREditFriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREditFriendsTableViewCell.swift; sourceTree = "<group>"; };
+		9A1C36401BF246B80037F198 /* GRReviewBoxWriteCommentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxWriteCommentProtocol.swift; sourceTree = "<group>"; };
+		9A1C36421BF255520037F198 /* GRCommentModalViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCommentModalViewProtocol.swift; sourceTree = "<group>"; };
+		9A1DE5D91C2839DC00DE31BE /* GREditInsertedProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREditInsertedProductView.swift; sourceTree = "<group>"; };
+		9A1DE5DB1C2839F200DE31BE /* GREditInsertedProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GREditInsertedProductController.swift; sourceTree = "<group>"; };
+		9A21C6271C11CC2D0076551B /* GRAddProductProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAddProductProtocol.swift; sourceTree = "<group>"; };
+		9A21C6281C11CC2D0076551B /* GRCategoryListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoryListProtocol.swift; sourceTree = "<group>"; };
+		9A21C6291C11CC2D0076551B /* GRCheckboxDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCheckboxDelegate.swift; sourceTree = "<group>"; };
+		9A21C62B1C11CC2D0076551B /* GRListsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRListsProtocol.swift; sourceTree = "<group>"; };
+		9A21C62C1C11CC2D0076551B /* GRLoginViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLoginViewDelegate.swift; sourceTree = "<group>"; };
+		9A21C62D1C11CC2D0076551B /* GRMenuProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMenuProtocol.swift; sourceTree = "<group>"; };
+		9A21C62F1C11CC2D0076551B /* GRReviewBoxProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxProtocol.swift; sourceTree = "<group>"; };
+		9A21C63D1C11CC4A0076551B /* GRAddProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAddProductViewController.swift; sourceTree = "<group>"; };
+		9A21C63E1C11CC4A0076551B /* GRCreateListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCreateListViewController.swift; sourceTree = "<group>"; };
+		9A21C63F1C11CC4A0076551B /* GRMyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMyListViewController.swift; sourceTree = "<group>"; };
+		9A21C6401C11CC4A0076551B /* GROneLineProductViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GROneLineProductViewCell.swift; sourceTree = "<group>"; };
+		9A21C6411C11CC4A0076551B /* GRShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingListViewController.swift; sourceTree = "<group>"; };
+		9A21C6471C11CC640076551B /* GRAddProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAddProductView.swift; sourceTree = "<group>"; };
+		9A21C6481C11CC640076551B /* GRCreateListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCreateListView.swift; sourceTree = "<group>"; };
+		9A21C6491C11CC640076551B /* GRInviteFriendsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInviteFriendsView.swift; sourceTree = "<group>"; };
+		9A21C64A1C11CC640076551B /* GRMyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMyListView.swift; sourceTree = "<group>"; };
+		9A21C64B1C11CC640076551B /* GRMyListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMyListViewCell.swift; sourceTree = "<group>"; };
+		9A21C64C1C11CC640076551B /* GRShoppingItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingItemViewCell.swift; sourceTree = "<group>"; };
+		9A21C64D1C11CC640076551B /* GRShoppingListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingListView.swift; sourceTree = "<group>"; };
+		9A21C64E1C11CC640076551B /* GRTopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRTopListView.swift; sourceTree = "<group>"; };
+		9A21C65F1C11CD690076551B /* GRCreateListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCreateListProtocol.swift; sourceTree = "<group>"; };
+		9A2490021C3C5BD4000EA9CF /* GRProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductsViewController.swift; sourceTree = "<group>"; };
+		9A25DC3A1C3991AE00DB0B0B /* GRPostReviewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPostReviewProtocol.swift; sourceTree = "<group>"; };
+		9A269BBF1C4B0005005D4D9F /* GRSubCategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSubCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		9A28DB681C42CE26009DA8B4 /* GRAutocompleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAutocompleteView.swift; sourceTree = "<group>"; };
+		9A28DB6A1C42CE30009DA8B4 /* GRAutocompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAutocompleteViewController.swift; sourceTree = "<group>"; };
+		9A303FE51DCBF0FC00555EA4 /* CustomActivitySource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivitySource.swift; sourceTree = "<group>"; };
+		9A303FE71DCBF9A400555EA4 /* GRReviewsToCompletePlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewsToCompletePlaceHolderView.swift; sourceTree = "<group>"; };
+		9A304ECF1C5FA0090010ECD1 /* GRUserProductsClassified.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserProductsClassified.swift; sourceTree = "<group>"; };
+		9A3CE7861DCBFE1E00662247 /* GRLatestReviewsPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLatestReviewsPlaceHolderView.swift; sourceTree = "<group>"; };
+		9A3F850E1BE3B8BC00212FE0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A3F94CB1DD2644A00B5879F /* GRInvitationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInvitationCodeViewController.swift; sourceTree = "<group>"; };
+		9A3F94CE1DD2648800B5879F /* GRInvitationCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInvitationCodeView.swift; sourceTree = "<group>"; };
+		9A4312FA1C9E168C00F86C6C /* GRGetUserContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRGetUserContacts.swift; sourceTree = "<group>"; };
+		9A43C7261D2AD0C900258868 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		9A4DE4BF1C427AE6007D4AF1 /* GRSearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSearchBarView.swift; sourceTree = "<group>"; };
+		9A4DE4C31C427AF9007D4AF1 /* GRSearchBarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSearchBarProtocol.swift; sourceTree = "<group>"; };
+		9A52337C1C1B4BE600FC6831 /* GRRegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRegisterUser.swift; sourceTree = "<group>"; };
+		9A52337E1C1B56DC00FC6831 /* GRRegisterUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRegisterUserViewModel.swift; sourceTree = "<group>"; };
+		9A565E1D1BECD0BF00301A87 /* GRRegistrationViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRegistrationViewProtocol.swift; sourceTree = "<group>"; };
+		9A565E1F1BED008200301A87 /* GRLoginViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLoginViewProtocol.swift; sourceTree = "<group>"; };
+		9A6815BE1C4E7987004A99F4 /* GRPredefinedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPredefinedListViewController.swift; sourceTree = "<group>"; };
+		9A6815C01C4E7995004A99F4 /* GRPredefinedListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPredefinedListView.swift; sourceTree = "<group>"; };
+		9A6869C71C29B85000871751 /* GRCustomNavigationAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCustomNavigationAnimationController.swift; sourceTree = "<group>"; };
+		9A6B2DB91C6500E3006134BC /* GRCaptureProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCaptureProductView.swift; sourceTree = "<group>"; };
+		9A6B2DBB1C6500EA006134BC /* GRCaptureProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCaptureProductViewController.swift; sourceTree = "<group>"; };
+		9A6D13431C354C1000F5C1A0 /* GRFriendsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRFriendsViewCell.swift; sourceTree = "<group>"; };
+		9A6DEC0E1C8FA9E2003E0ABC /* GRUpdateHomeListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUpdateHomeListProtocol.swift; sourceTree = "<group>"; };
+		9A7203E61BE901D3004D4897 /* GRReviewBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxView.swift; sourceTree = "<group>"; };
+		9A7203F21BE9155C004D4897 /* GRReviewBoxVote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxVote.swift; sourceTree = "<group>"; };
+		9A7203F41BE9156E004D4897 /* GRReviewBoxFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxFrequency.swift; sourceTree = "<group>"; };
+		9A7203F61BE9157E004D4897 /* GRReviewBoxWriteComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxWriteComment.swift; sourceTree = "<group>"; };
+		9A7203F81BE91588004D4897 /* GRReviewBoxComented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxComented.swift; sourceTree = "<group>"; };
+		9A7203FA1BE970BB004D4897 /* GRReviewBoxVoteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReviewBoxVoteProtocol.swift; sourceTree = "<group>"; };
+		9A7203FC1BEA5EDD004D4897 /* GRCommentModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCommentModalView.swift; sourceTree = "<group>"; };
+		9A7203FE1BEA5EE5004D4897 /* GRCommentModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCommentModalViewController.swift; sourceTree = "<group>"; };
+		9A78FFC81C3194B60081D4A5 /* GROnBoardData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GROnBoardData.swift; sourceTree = "<group>"; };
+		9A7925691BF3591B0039DDA8 /* GRMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMenuView.swift; sourceTree = "<group>"; };
+		9A79256B1BF3592C0039DDA8 /* GRMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMenuViewController.swift; sourceTree = "<group>"; };
+		9A794D6F1C3F3D4C00D36A37 /* GRListButtonAsIconViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRListButtonAsIconViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		9A8348D31BE59F1200A46C4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A8348D51BE59F1C00A46C4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A8348D71BE59F2B00A46C4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A8348D91BE59F3500A46C4B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A8348DB1BE624C100A46C4B /* GRCategoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoryViewCell.swift; sourceTree = "<group>"; };
+		9A8348DD1BE6250C00A46C4B /* GRCategoryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoryListView.swift; sourceTree = "<group>"; };
+		9A8348DF1BE6252600A46C4B /* GRCategoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCategoryListViewController.swift; sourceTree = "<group>"; };
+		9A8567F41C1CFC2D008AC346 /* GRUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserViewModel.swift; sourceTree = "<group>"; };
+		9A85D2521C1AFC3F00F30810 /* GRAuthUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAuthUser.swift; sourceTree = "<group>"; };
+		9A85D2541C1AFC6E00F30810 /* GRAuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAuthViewModel.swift; sourceTree = "<group>"; };
+		9A871F121C566AED0068B925 /* GRZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRZoomView.swift; sourceTree = "<group>"; };
+		9A871F141C566AF60068B925 /* GRZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRZoomViewController.swift; sourceTree = "<group>"; };
+		9A8ED3D11C8DA608002F3EE8 /* GRMoreActionsForProductProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMoreActionsForProductProtocol.swift; sourceTree = "<group>"; };
+		9A959D991C3DDA650009D6CC /* GRAfterReviewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAfterReviewProtocol.swift; sourceTree = "<group>"; };
+		9A959D9F1C3E9F170009D6CC /* GRProductsResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductsResultTableViewCell.swift; sourceTree = "<group>"; };
+		9A963E341BED0F1A00245F01 /* GRToolBarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRToolBarProtocol.swift; sourceTree = "<group>"; };
+		9A965BEC1C3CA67100B7C327 /* GRSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSettingsView.swift; sourceTree = "<group>"; };
+		9A965BEE1C3CA67D00B7C327 /* GRSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSettingsViewController.swift; sourceTree = "<group>"; };
+		9A9C5CBF1C9C0CA500CBACA0 /* GRGenericPersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRGenericPersonTableViewCell.swift; sourceTree = "<group>"; };
+		9A9C5CC11C9C0CFE00CBACA0 /* GRInviteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInviteTableViewController.swift; sourceTree = "<group>"; };
+		9A9C5CC31C9C0F8F00CBACA0 /* GRInviteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInviteView.swift; sourceTree = "<group>"; };
+		9A9C5CC51C9C10CC00CBACA0 /* GRInviteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRInviteProtocol.swift; sourceTree = "<group>"; };
+		9A9D5F881C38946000A9C3DD /* GRFriendsDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRFriendsDataProtocol.swift; sourceTree = "<group>"; };
+		9AA0EB141BE4E6D1000CAF66 /* GRToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRToolbar.swift; sourceTree = "<group>"; };
+		9AA0EB181BE56DEA000CAF66 /* GRRegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRegistrationView.swift; sourceTree = "<group>"; };
+		9AA0EB1A1BE56DF8000CAF66 /* GRRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRRegistrationViewController.swift; sourceTree = "<group>"; };
+		9AA7580E1D40BFD8006FEE36 /* GRReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReportViewController.swift; sourceTree = "<group>"; };
+		9AA758101D40BFE5006FEE36 /* GRReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRReportView.swift; sourceTree = "<group>"; };
+		9AA758121D4220A0006FEE36 /* GRAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAlertViewController.swift; sourceTree = "<group>"; };
+		9AA758141D42282B006FEE36 /* GRAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAlertView.swift; sourceTree = "<group>"; };
+		9AA758161D423A48006FEE36 /* GRCustomButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCustomButtons.swift; sourceTree = "<group>"; };
+		9AAC91461C40714700A42ED3 /* GRModalRecensioneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRModalRecensioneViewController.swift; sourceTree = "<group>"; };
+		9AAC91481C40714F00A42ED3 /* GRModalRecensioneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRModalRecensioneView.swift; sourceTree = "<group>"; };
+		9AB2A0C61CC8F9B800570E52 /* GRUserStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserStatsView.swift; sourceTree = "<group>"; };
+		9AB2A0C81CC8FC9600570E52 /* GRUserNumericalStatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserNumericalStatView.swift; sourceTree = "<group>"; };
+		9AB4350B1C47D1D800E4D8E4 /* GRMiniVoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMiniVoteView.swift; sourceTree = "<group>"; };
+		9AB8B4481C2009A500EFC34D /* GRProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProfileView.swift; sourceTree = "<group>"; };
+		9AB8B44A1C2009C000EFC34D /* GRProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProfileViewController.swift; sourceTree = "<group>"; };
+		9ABE19051C3C8F3E0082D3F4 /* GRProductsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductsListViewController.swift; sourceTree = "<group>"; };
+		9ABE19071C3C8F4D0082D3F4 /* GRProductsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductsListView.swift; sourceTree = "<group>"; };
+		9AC432D21C98234F003F925C /* 12679449_1259816744031665_123406415_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12679449_1259816744031665_123406415_n.png; sourceTree = "<group>"; };
+		9AC58BC91D0EB00D00798C6E /* GRShoppingListMenuViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRShoppingListMenuViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		9AC58BCB1D0EB01600798C6E /* GRShoppingListMenuViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRShoppingListMenuViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		9AC58BCD1D0EB0AA00798C6E /* GRShoppingListMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingListMenuTableViewCell.swift; sourceTree = "<group>"; };
+		9ACC73A51C90A6E20032FA7B /* GRDocumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDocumentsViewController.swift; sourceTree = "<group>"; };
+		9ACC73A71C90A7140032FA7B /* GRDocumentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRDocumentsView.swift; sourceTree = "<group>"; };
+		9ACC73AB1C90BCF50032FA7B /* tos.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tos.html; sourceTree = "<group>"; };
+		9ACC73B21C90CA130032FA7B /* privacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		9ADD89121C85BA91005F3B20 /* GRHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHelpView.swift; sourceTree = "<group>"; };
+		9ADD89141C85BA9F005F3B20 /* GRHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHelpViewController.swift; sourceTree = "<group>"; };
+		9ADD89161C85FCF3005F3B20 /* GRUserCategorizedProductsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserCategorizedProductsProtocol.swift; sourceTree = "<group>"; };
+		9AEB969A1BE42AE200845CDE /* GRLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLoginView.swift; sourceTree = "<group>"; };
+		9AEB969C1BE42AED00845CDE /* GRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRLoginViewController.swift; sourceTree = "<group>"; };
+		9AEDF8991D0F733E0055427A /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		9AF1104A1C5AC1470017FCE9 /* GRNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRNavigationController.swift; sourceTree = "<group>"; };
+		9AF18C061C3C655600064722 /* GRProductsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductsView.swift; sourceTree = "<group>"; };
+		9AF18C081C3C759B00064722 /* GRProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		9AF5CA081C9B042E008C83CD /* GRProfileUpdateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRProfileUpdateProtocol.swift; sourceTree = "<group>"; };
+		9AF632CF1C5E25E90077D644 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		9AF632D01C5E25E90077D644 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		9AF687B31C92FB7D00489A81 /* GRVoteReplicationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRVoteReplicationProtocol.swift; sourceTree = "<group>"; };
+		9AF687B51C9314B600489A81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AF687B71C93154100489A81 /* Grocerest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Grocerest-Bridging-Header.h"; path = "Grocerest/Grocerest-Bridging-Header.h"; sourceTree = "<group>"; };
+		9AF751C01D095166009A820C /* GRShoppingListMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingListMenuView.swift; sourceTree = "<group>"; };
+		9AF751C21D095170009A820C /* GRShoppingListMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingListMenuViewController.swift; sourceTree = "<group>"; };
+		9AF862361C5B946E0085619C /* GRMenuDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRMenuDataProtocol.swift; sourceTree = "<group>"; };
+		9AF862381C5B9D190085619C /* GRHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		9AF8AEAF1C18DC9E003B8E28 /* GRUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUser.swift; sourceTree = "<group>"; };
+		9AF8AEB11C18E580003B8E28 /* GRAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRAuthentication.swift; sourceTree = "<group>"; };
+		9AF9245C1C3AE2890008DFAD /* GRShoppingItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRShoppingItemProtocol.swift; sourceTree = "<group>"; };
+		9AFBE5581D454790009340D9 /* GRUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserProfileViewController.swift; sourceTree = "<group>"; };
+		9AFBE55A1D4547A2009340D9 /* GRUserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserProfileView.swift; sourceTree = "<group>"; };
+		9AFBE55C1D46BBC8009340D9 /* GRUserReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserReviewTableViewCell.swift; sourceTree = "<group>"; };
+		9AFBE55E1D477C50009340D9 /* GRUserProfileViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRUserProfileViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		9AFBE5601D477C5E009340D9 /* GRUserProfileViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRUserProfileViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		9AFBE5621D47D971009340D9 /* GRUserReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserReviewsViewController.swift; sourceTree = "<group>"; };
+		9AFBE5641D47D97A009340D9 /* GRUserReviewsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRUserReviewsView.swift; sourceTree = "<group>"; };
+		9AFEBA741D2E651100B34338 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Grocerest/Info.plist; sourceTree = "<group>"; };
+		D809B726F9BEB252DCB3A793 /* Pods_Grocerest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grocerest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7FCAD31BE2C04B0089849F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8348DA1BE59F3500A46C4B /* QuartzCore.framework in Frameworks */,
+				9A8348D81BE59F2B00A46C4B /* UIKit.framework in Frameworks */,
+				9A8348D41BE59F1200A46C4B /* Foundation.framework in Frameworks */,
+				9A8348D61BE59F1C00A46C4B /* CoreGraphics.framework in Frameworks */,
+				758AA1AF9D3DDCFAE94BA4D4 /* Pods_Grocerest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2889571E7AA45400868F66 /* ReactModules */ = {
+			isa = PBXGroup;
+			children = (
+				0D2889531E7AA24200868F66 /* EventManagerBridge.m */,
+				0D2889551E7AA2D300868F66 /* EventManager.swift */,
+			);
+			name = ReactModules;
+			sourceTree = "<group>";
+		};
+		131D30171D814FE4009AE769 /* BadgesTab */ = {
+			isa = PBXGroup;
+			children = (
+				131D30151D814066009AE769 /* GRBadgesTab.swift */,
+				131D30181D81500C009AE769 /* GRBadge.swift */,
+				131D301A1D8172B2009AE769 /* GRBadgeWidget.swift */,
+			);
+			name = BadgesTab;
+			sourceTree = "<group>";
+		};
+		1321A1DE1D75678100578B4E /* UserProfileStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				132B1EFB1D803DC70051CDA2 /* GRActivitiesTab.swift */,
+				1321A1DF1D7567C800578B4E /* Primitive */,
+				135321071D6ED082006C8710 /* GRActivityLevelProgressStatisticsPanel.swift */,
+				131D30171D814FE4009AE769 /* BadgesTab */,
+				13DBA7A01D82BB39001E6832 /* GRUserProfileStatisticsTabbedPanel.swift */,
+			);
+			name = UserProfileStatistics;
+			sourceTree = "<group>";
+		};
+		1321A1DF1D7567C800578B4E /* Primitive */ = {
+			isa = PBXGroup;
+			children = (
+				13BE03C31D6D789E0069387F /* GRProgressCircle.swift */,
+				1309BA971D6D8FBE00583EE2 /* GRStatProgress.swift */,
+				136709F81D76D711000C64FE /* GRCakeDiagram.swift */,
+			);
+			name = Primitive;
+			sourceTree = "<group>";
+		};
+		132FAFA91D225DAE0076A7F1 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				132FAFAC1D225DEE0076A7F1 /* GRProductDetailView.swift */,
+				13E6AD311D24ECA000C94E04 /* GRScoreDistributionView.swift */,
+			);
+			name = ProductDetail;
+			sourceTree = "<group>";
+		};
+		133CAD871DF6B8FD00F080AC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0D2889571E7AA45400868F66 /* ReactModules */,
+				13D928FB1E2506E500D6F37F /* ActivitySources */,
+				133CAD8E1DF6C6A500F080AC /* Datasources */,
+				133CAD881DF6BB6000F080AC /* Helpers */,
+				1B122FC31BE2D72000627FBF /* Controllers */,
+				9A85D2511C1AFBF000F30810 /* ViewModels */,
+				9A19A09B1BE82C4200CB56F8 /* Protocols */,
+				1B122FC51BE2D72D00627FBF /* Extensions */,
+				1B122FC41BE2D72700627FBF /* Models */,
+				1B122FC21BE2D71800627FBF /* Views */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		133CAD881DF6BB6000F080AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD8BA01D88053500E23235 /* DeepLinksManager.swift */,
+				0DA0A9FD1E32AFC100DBB15D /* TuneManager.swift */,
+				9A3F850E1BE3B8BC00212FE0 /* Constants.swift */,
+				1B956B561D14B2B900E2E018 /* Helper.swift */,
+				0D55AB3B1DEC93CB00037E8E /* GrocerestAPI.swift */,
+				9A4312FA1C9E168C00F86C6C /* GRGetUserContacts.swift */,
+				9A02A06D1C5970EF004B8299 /* GRSynchUserData.swift */,
+				13EB531F1DF848F500AA6C7B /* Various.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		133CAD891DF6C03200F080AC /* AddProduct */ = {
+			isa = PBXGroup;
+			children = (
+				1B263EDA1CE52F1100E78C9A /* GRAddProductViewController+UITableViewDelegate.swift */,
+				9A21C63D1C11CC4A0076551B /* GRAddProductViewController.swift */,
+				1B263ED81CE52D1C00E78C9A /* GRAddProductViewController+UITableViewDataSource.swift */,
+			);
+			name = AddProduct;
+			sourceTree = "<group>";
+		};
+		133CAD8A1DF6C07200F080AC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9AB8B44A1C2009C000EFC34D /* GRProfileViewController.swift */,
+				1BACF7631CFDB78700A50322 /* GRProfileViewController+UserProfile.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		133CAD8B1DF6C0B600F080AC /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBE55E1D477C50009340D9 /* GRUserProfileViewController+UITableViewDelegate.swift */,
+				9AFBE5601D477C5E009340D9 /* GRUserProfileViewController+UITableViewDataSource.swift */,
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
+		133CAD8C1DF6C0EA00F080AC /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				1BD5ABE11CEA79B9003026AC /* GRShoppingListViewController+UITableViewDataSource.swift */,
+				1BD5ABE31CEA79C4003026AC /* GRShoppingListViewController+UITableViewDelegate.swift */,
+				9A21C6411C11CC4A0076551B /* GRShoppingListViewController.swift */,
+			);
+			name = ShoppingList;
+			sourceTree = "<group>";
+		};
+		133CAD8D1DF6C13000F080AC /* ShoppingListMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9AC58BC91D0EB00D00798C6E /* GRShoppingListMenuViewController+UITableViewDataSource.swift */,
+				9AF751C21D095170009A820C /* GRShoppingListMenuViewController.swift */,
+				9AC58BCB1D0EB01600798C6E /* GRShoppingListMenuViewController+UITableViewDelegate.swift */,
+			);
+			name = ShoppingListMenu;
+			sourceTree = "<group>";
+		};
+		133CAD8E1DF6C6A500F080AC /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				13E36D261D2A686200A74DD9 /* GRProductDetailReviewsListDataSource.swift */,
+				13810A741E49C2F600FBE6B7 /* GRBrandDetailProductsListDataSource.swift */,
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
+		133CAD8F1DF6C7ED00F080AC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F68251C50F587008437DE /* GRProfileToolbar.swift */,
+				9AB8B4481C2009A500EFC34D /* GRProfileView.swift */,
+				1B5A58451CEA719A00D67852 /* GRProfileView+API.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		133E4C011DAE2E5D0070D5BE /* CategoriesToExplore */ = {
+			isa = PBXGroup;
+			children = (
+				133DAB611DACEDE90058639A /* GRCategoryToExplore.swift */,
+				133E4C021DAE2E920070D5BE /* GRCategoriesToExplore.swift */,
+			);
+			name = CategoriesToExplore;
+			sourceTree = "<group>";
+		};
+		133EDDC81DB4B21E00E8B3AF /* LastReviews */ = {
+			isa = PBXGroup;
+			children = (
+				133EDDC91DB4B23400E8B3AF /* GRLastReview.swift */,
+				133EDDCB1DB5032500E8B3AF /* GRLastReviews.swift */,
+			);
+			name = LastReviews;
+			sourceTree = "<group>";
+		};
+		13406CAC1DABA66E00256571 /* ReviewsToComplete */ = {
+			isa = PBXGroup;
+			children = (
+				13406CAD1DABACED00256571 /* GRReviewToComplete.swift */,
+				13AE8FD91DB0C1060057C809 /* GRReviewsToComplete.swift */,
+			);
+			name = ReviewsToComplete;
+			sourceTree = "<group>";
+		};
+		135587D01DA4EE500065D18B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				401104FB1E1EA53D000D778D /* RelatedProducts */,
+				133EDDC81DB4B21E00E8B3AF /* LastReviews */,
+				133E4C011DAE2E5D0070D5BE /* CategoriesToExplore */,
+				13406CAC1DABA66E00256571 /* ReviewsToComplete */,
+				138D78C21DA62E65009B3715 /* Baloon */,
+				9AF862381C5B9D190085619C /* GRHomeCollectionViewCell.swift */,
+				9A19A0991BE7D3A700CB56F8 /* GRHomeView.swift */,
+				13D4D3261D055F5F009DF6CD /* GRHomeCollectionLoadingViewCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		136C7F4F1D7D80D000557AD3 /* CategoriesTab */ = {
+			isa = PBXGroup;
+			children = (
+				131C94DC1D7573B300622C7F /* GRCategoryLevelProgressStatisticsPanel.swift */,
+				131D7FA61D7983C6009DE400 /* GRReviewsStatisticsCategoryTable.swift */,
+				136C7F501D7D815C00557AD3 /* GRCategoriesTab.swift */,
+			);
+			name = CategoriesTab;
+			sourceTree = "<group>";
+		};
+		1376E9981CD23C5F00698BE8 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1376E9991CD23C7300698BE8 /* FacebookSDKStrings.bundle */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		138D78C21DA62E65009B3715 /* Baloon */ = {
+			isa = PBXGroup;
+			children = (
+				135587D11DA4EF530065D18B /* GRHomeBaloonView.swift */,
+				138D78C31DA62EC3009B3715 /* GRBaloonMessage.swift */,
+			);
+			name = Baloon;
+			sourceTree = "<group>";
+		};
+		13BAA9591E432DCD0028990B /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				13BAA95A1E432DFB0028990B /* GRBrandsListViewController.swift */,
+				407F366F1E44EA4C003796E8 /* GRBrandsSearchViewController.swift */,
+				13810A701E49A4E900FBE6B7 /* GRBrandDetailViewController.swift */,
+				4058D2AB1E51C0F200E0F89E /* GRBrandProductsListViewController.swift */,
+				1334F1891E57304100160054 /* GRBrandsSearchFilterViewController.swift */,
+			);
+			name = Brands;
+			sourceTree = "<group>";
+		};
+		13BAA95C1E432E0A0028990B /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				13BAA95D1E432E190028990B /* GRBrandsListView.swift */,
+				13BAA95F1E434A6C0028990B /* GRBrandsSearchResultsView.swift */,
+				13BAA9611E4368B80028990B /* GRBrandsResultTableViewCell.swift */,
+				407F366D1E44EA02003796E8 /* GRBrandsSearchView.swift */,
+				13810A6E1E49A48F00FBE6B7 /* GRBrandDetailView.swift */,
+				4058D2AD1E51C23200E0F89E /* GRBrandProductsListView.swift */,
+				1334F1871E57300200160054 /* GRBrandsSearchFilterView.swift */,
+			);
+			name = Brands;
+			sourceTree = "<group>";
+		};
+		13D928FB1E2506E500D6F37F /* ActivitySources */ = {
+			isa = PBXGroup;
+			children = (
+				9A303FE51DCBF0FC00555EA4 /* CustomActivitySource.swift */,
+				13D928FC1E2517A500D6F37F /* ProductSharingActivitySource.swift */,
+				13A5B7551E2619AD0073EA9B /* ReviewSharingActivitySource.swift */,
+			);
+			name = ActivitySources;
+			sourceTree = "<group>";
+		};
+		13F349C41E0A791A00612D8B /* ProductSearch */ = {
+			isa = PBXGroup;
+			children = (
+				13F349C51E0A794700612D8B /* GRProductSearchView.swift */,
+				13F349C91E0A9FED00612D8B /* GRProductSearchAutocompletionView.swift */,
+				13F349CB1E0AA00200612D8B /* GRProductSearchResultsView.swift */,
+				13F349CD1E0AC1CE00612D8B /* GRProductSearchPlaceholder.swift */,
+			);
+			name = ProductSearch;
+			sourceTree = "<group>";
+		};
+		1B122FC21BE2D71800627FBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D4A56AF1E798DFD00B4FEA1 /* GRProductAvailabilityView.swift */,
+				13BAA95C1E432E0A0028990B /* Brands */,
+				13F349C41E0A791A00612D8B /* ProductSearch */,
+				1B598BE21CCA761E007982B7 /* Primitive */,
+				1321A1DE1D75678100578B4E /* UserProfileStatistics */,
+				136C7F4F1D7D80D000557AD3 /* CategoriesTab */,
+				1B82560A1D4C834A000E9F68 /* Notifications */,
+				132FAFA91D225DAE0076A7F1 /* ProductDetail */,
+				9A3F94CD1DD2645900B5879F /* InvitationView */,
+				40D6BF391DB78CCC002C3905 /* UsersSection */,
+				135587D01DA4EE500065D18B /* Home */,
+				133CAD8F1DF6C7ED00F080AC /* Profile */,
+				9A21C6471C11CC640076551B /* GRAddProductView.swift */,
+				135C186C1E029D2800427B5F /* GRScannedProductNotFoundView.swift */,
+				9AF632CF1C5E25E90077D644 /* ENSideMenu.swift */,
+				9A1891231C34BB1500CE72C2 /* GRAddFriendsView.swift */,
+				1399406B1D3D0801006A8E78 /* GRReviewDetailView.swift */,
+				131ED39B1D38C2E100AAFA74 /* GRReviewsListView.swift */,
+				13C6D4AD1D2A971A0000867C /* GRReviewTableViewCell.swift */,
+				9AA758141D42282B006FEE36 /* GRAlertView.swift */,
+				9A28DB681C42CE26009DA8B4 /* GRAutocompleteView.swift */,
+				1B0A2F721CBFC09000E3B936 /* GRAutocompletionTableViewCell.swift */,
+				1B0A2F741CBFC1BE00E3B936 /* GRAutocompletionView.swift */,
+				9A6B2DB91C6500E3006134BC /* GRCaptureProductView.swift */,
+				9A8348DD1BE6250C00A46C4B /* GRCategoryListView.swift */,
+				9A8348DB1BE624C100A46C4B /* GRCategoryViewCell.swift */,
+				9A19A09E1BE82CAA00CB56F8 /* GRCheckbox.swift */,
+				13F88AA51CEDF7D400D642A0 /* GRClientTooOldErrorView.swift */,
+				9A7203FC1BEA5EDD004D4897 /* GRCommentModalView.swift */,
+				9A21C6481C11CC640076551B /* GRCreateListView.swift */,
+				134346BF1CE21552008CB2BE /* GRCredentialsRecoveryView.swift */,
+				1324E2961D11386F0042A096 /* GRDateSelectorAlertView.swift */,
+				13F88AA61CEDF7D400D642A0 /* GRDeactivatedUserErrorView.swift */,
+				9ACC73A71C90A7140032FA7B /* GRDocumentsView.swift */,
+				9A1ACBC11C6C7D9300DDA44C /* GREditFriendsTableViewCell.swift */,
+				9A1DE5D91C2839DC00DE31BE /* GREditInsertedProductView.swift */,
+				1B1D9C8D1C776B45003949DC /* GREditProfileView.swift */,
+				13F88AA71CEDF7D400D642A0 /* GREmailNotVerifiedErrorView.swift */,
+				9A6D13431C354C1000F5C1A0 /* GRFriendsViewCell.swift */,
+				9A9C5CBF1C9C0CA500CBACA0 /* GRGenericPersonTableViewCell.swift */,
+				9ADD89121C85BA91005F3B20 /* GRHelpView.swift */,
+				9A21C6491C11CC640076551B /* GRInviteFriendsView.swift */,
+				9A9C5CC31C9C0F8F00CBACA0 /* GRInviteView.swift */,
+				9A794D6F1C3F3D4C00D36A37 /* GRListButtonAsIconViewCollectionViewCell.swift */,
+				13D4D3281D0587A6009DF6CD /* GRLoadingTopListView.swift */,
+				9AEB969A1BE42AE200845CDE /* GRLoginView.swift */,
+				9A7925691BF3591B0039DDA8 /* GRMenuView.swift */,
+				134346B91CE1E136008CB2BE /* GRMessageView.swift */,
+				9AB4350B1C47D1D800E4D8E4 /* GRMiniVoteView.swift */,
+				9AAC91481C40714F00A42ED3 /* GRModalRecensioneView.swift */,
+				9A1ACBBD1C6BFC0900DDA44C /* GRModifyListView.swift */,
+				9A1ACBB91C6BBED200DDA44C /* GRMoreActionsForListView.swift */,
+				9A21C64A1C11CC640076551B /* GRMyListView.swift */,
+				9A21C64B1C11CC640076551B /* GRMyListViewCell.swift */,
+				133F71B21D14020B003492AD /* GRNameChangeAlertView.swift */,
+				1313A8691CFC2639001F5DC8 /* GRNetworkErrorView.swift */,
+				9A21C6401C11CC4A0076551B /* GROneLineProductViewCell.swift */,
+				1B9004E71CBB8FF400DDF0D0 /* GROrderItemsView.swift */,
+				13204D1E1D09A4E5002313E8 /* GRPasswordChangeAlertView.swift */,
+				9A6815C01C4E7995004A99F4 /* GRPredefinedListView.swift */,
+				9AF18C081C3C759B00064722 /* GRProductCollectionViewCell.swift */,
+				9ABE19071C3C8F4D0082D3F4 /* GRProductsListView.swift */,
+				9A959D9F1C3E9F170009D6CC /* GRProductsResultTableViewCell.swift */,
+				9AF18C061C3C655600064722 /* GRProductsView.swift */,
+				9AA0EB181BE56DEA000CAF66 /* GRRegistrationView.swift */,
+				9AA758101D40BFE5006FEE36 /* GRReportView.swift */,
+				9A0297221D316894005981F4 /* GRReputationView.swift */,
+				9A7203F81BE91588004D4897 /* GRReviewBoxComented.swift */,
+				9A7203F41BE9156E004D4897 /* GRReviewBoxFrequency.swift */,
+				9A7203E61BE901D3004D4897 /* GRReviewBoxView.swift */,
+				9A7203F21BE9155C004D4897 /* GRReviewBoxVote.swift */,
+				9A7203F61BE9157E004D4897 /* GRReviewBoxWriteComment.swift */,
+				9A19A0A21BE8C6D000CB56F8 /* GRReviewView.swift */,
+				9A4DE4BF1C427AE6007D4AF1 /* GRSearchBarView.swift */,
+				1328FF4C1D0FEA87005AC354 /* GRSelectorAlertView.swift */,
+				9A965BEC1C3CA67100B7C327 /* GRSettingsView.swift */,
+				9A21C64C1C11CC640076551B /* GRShoppingItemViewCell.swift */,
+				0D0F305C1CDCC33500590511 /* GRShoppingListAutocompleteBarView.swift */,
+				9AF751C01D095166009A820C /* GRShoppingListMenuView.swift */,
+				9A21C64D1C11CC640076551B /* GRShoppingListView.swift */,
+				9A10C36F1C22BB7D00366C68 /* GRSingleProductMoreActionsModalView.swift */,
+				9A269BBF1C4B0005005D4D9F /* GRSubCategoryTableViewCell.swift */,
+				9AA0EB141BE4E6D1000CAF66 /* GRToolbar.swift */,
+				9A21C64E1C11CC640076551B /* GRTopListView.swift */,
+				1B2BAD591CA4857600FD2012 /* GRTutorialView.swift */,
+				9AB2A0C81CC8FC9600570E52 /* GRUserNumericalStatView.swift */,
+				9AFBE55C1D46BBC8009340D9 /* GRUserReviewTableViewCell.swift */,
+				9AFBE55A1D4547A2009340D9 /* GRUserProfileView.swift */,
+				9AFBE5641D47D97A009340D9 /* GRUserReviewsView.swift */,
+				9AC58BCD1D0EB0AA00798C6E /* GRShoppingListMenuTableViewCell.swift */,
+				9AB2A0C61CC8F9B800570E52 /* GRUserStatsView.swift */,
+				1B74440A1BE2D794004AF89D /* GRWelcomeView.swift */,
+				9A871F121C566AED0068B925 /* GRZoomView.swift */,
+				9A303FE71DCBF9A400555EA4 /* GRReviewsToCompletePlaceHolderView.swift */,
+				9A3CE7861DCBFE1E00662247 /* GRLatestReviewsPlaceHolderView.swift */,
+				0DAEDA781DD45C9A000E690E /* GRInvitationCodeInvalidErrorView.swift */,
+				40F3B6CA1E13DC5F000A1A41 /* GRProductSearchFilterView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1B122FC31BE2D72000627FBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D2889171E799C4400868F66 /* RCTViewController.swift */,
+				13BAA9591E432DCD0028990B /* Brands */,
+				9AF632D01C5E25E90077D644 /* ENSideMenuNavigationController.swift */,
+				131ED3991D38C2D600AAFA74 /* GRReviewsListViewController.swift */,
+				139940691D3D07F7006A8E78 /* GRReviewDetailViewController.swift */,
+				132FAFAA1D225DD80076A7F1 /* GRProductDetailViewController.swift */,
+				0DAEDA761DD45B48000E690E /* GRInvitationCodeInvalidErrorViewController.swift */,
+				9A3F94CB1DD2644A00B5879F /* GRInvitationCodeViewController.swift */,
+				9A18911F1C3495B300CE72C2 /* GRBarcodeScannerViewController.swift */,
+				133CAD8D1DF6C13000F080AC /* ShoppingListMenu */,
+				133CAD8C1DF6C0EA00F080AC /* ShoppingList */,
+				133CAD8B1DF6C0B600F080AC /* UserProfile */,
+				133CAD8A1DF6C07200F080AC /* Profile */,
+				133CAD891DF6C03200F080AC /* AddProduct */,
+				9ABEE58F1DB63BD100920F41 /* Home */,
+				9A1891211C34BB0D00CE72C2 /* GRAddFriendsViewController.swift */,
+				9AA758121D4220A0006FEE36 /* GRAlertViewController.swift */,
+				9A28DB6A1C42CE30009DA8B4 /* GRAutocompleteViewController.swift */,
+				9A6B2DBB1C6500EA006134BC /* GRCaptureProductViewController.swift */,
+				9A8348DF1BE6252600A46C4B /* GRCategoryListViewController.swift */,
+				13F88A991CEDF79500D642A0 /* GRClientTooOldErrorViewController.swift */,
+				9A7203FE1BEA5EE5004D4897 /* GRCommentModalViewController.swift */,
+				9A21C63E1C11CC4A0076551B /* GRCreateListViewController.swift */,
+				134346BD1CE21519008CB2BE /* GRCredentialsRecoveryViewController.swift */,
+				9A6869C71C29B85000871751 /* GRCustomNavigationAnimationController.swift */,
+				1324E2941D1138490042A096 /* GRDateSelectorAlertViewController.swift */,
+				13F88A9A1CEDF79500D642A0 /* GRDeactivatedUserErrorViewController.swift */,
+				9ACC73A51C90A6E20032FA7B /* GRDocumentsViewController.swift */,
+				9A1DE5DB1C2839F200DE31BE /* GREditInsertedProductController.swift */,
+				1B1D9C8B1C776AFA003949DC /* GREditProfileViewController.swift */,
+				13F88A9B1CEDF79500D642A0 /* GREmailNotVerifiedErrorViewController.swift */,
+				9ADD89141C85BA9F005F3B20 /* GRHelpViewController.swift */,
+				9A9C5CC11C9C0CFE00CBACA0 /* GRInviteTableViewController.swift */,
+				1BE12C951D4B2EC400584A5F /* GRLocalNotificationHUB.swift */,
+				9AEB969C1BE42AED00845CDE /* GRLoginViewController.swift */,
+				9A79256B1BF3592C0039DDA8 /* GRMenuViewController.swift */,
+				134346B71CE1E11B008CB2BE /* GRMessageViewController.swift */,
+				9AAC91461C40714700A42ED3 /* GRModalRecensioneViewController.swift */,
+				9A1ACBBF1C6BFC1100DDA44C /* GRModifyListViewController.swift */,
+				9A1ACBBB1C6BBEDF00DDA44C /* GRMoreActionsForListViewController.swift */,
+				9A21C63F1C11CC4A0076551B /* GRMyListViewController.swift */,
+				133F71B01D1401F1003492AD /* GRNameChangeAlertViewController.swift */,
+				9AF1104A1C5AC1470017FCE9 /* GRNavigationController.swift */,
+				1313A86B1CFC2667001F5DC8 /* GRNetworkErrorViewController.swift */,
+				1B9004E91CBB900600DDF0D0 /* GROrderItemsViewController.swift */,
+				13204D1C1D099F82002313E8 /* GRPasswordChangeAlertViewController.swift */,
+				9A6815BE1C4E7987004A99F4 /* GRPredefinedListViewController.swift */,
+				9ABE19051C3C8F3E0082D3F4 /* GRProductsListViewController.swift */,
+				9A2490021C3C5BD4000EA9CF /* GRProductsViewController.swift */,
+				9AA0EB1A1BE56DF8000CAF66 /* GRRegistrationViewController.swift */,
+				9AA7580E1D40BFD8006FEE36 /* GRReportViewController.swift */,
+				9A0297201D316862005981F4 /* GRReputationViewController.swift */,
+				9A19A0A01BE8C6BC00CB56F8 /* GRReviewViewController.swift */,
+				1328FF4A1D0FEA49005AC354 /* GRSelectorAlertViewController.swift */,
+				9A965BEE1C3CA67D00B7C327 /* GRSettingsViewController.swift */,
+				9A10C3711C22BB8D00366C68 /* GRSingleProductMoreActionsModalViewController.swift */,
+				1B2BAD5B1CA4858400FD2012 /* GRTutorialViewController.swift */,
+				9AFBE5581D454790009340D9 /* GRUserProfileViewController.swift */,
+				9AFBE5621D47D971009340D9 /* GRUserReviewsViewController.swift */,
+				1B535A1A1BE2DB0C006E7E3A /* GRWelcomeViewController.swift */,
+				9A871F141C566AF60068B925 /* GRZoomViewController.swift */,
+				13363CCD1DB655B200046DD8 /* GRUsersViewController.swift */,
+				40C7B2F91DBE123A003A9A59 /* GRUsersSearchViewController.swift */,
+				13F349C71E0A957000612D8B /* GRProductSearchViewController.swift */,
+				40F3B6C81E13DBE6000A1A41 /* GRProductSearchFilterViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1B122FC41BE2D72700627FBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AF8AEB11C18E580003B8E28 /* GRAuthentication.swift */,
+				9AF8AEAF1C18DC9E003B8E28 /* GRUser.swift */,
+				9A078A491DBEAA71007559EA /* GRUserStats.swift */,
+				9A85D2521C1AFC3F00F30810 /* GRAuthUser.swift */,
+				9A52337C1C1B4BE600FC6831 /* GRRegisterUser.swift */,
+				9A78FFC81C3194B60081D4A5 /* GROnBoardData.swift */,
+				9A030D8A1C59813F009E709F /* GRUserClassifiedProducts.swift */,
+				9A304ECF1C5FA0090010ECD1 /* GRUserProductsClassified.swift */,
+				1BB0B5491CD20630000F7156 /* Review.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1B122FC51BE2D72D00627FBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1372FFA01CEEEB3F007E4128 /* UIApplication.swift */,
+				9AEDF8991D0F733E0055427A /* UITableViewCell.swift */,
+				1B956B591D14B39D00E2E018 /* CGSize.swift */,
+				1B956B5B1D17AFFA00E2E018 /* String.swift */,
+				9A43C7261D2AD0C900258868 /* UIColor.swift */,
+				9A02972A1D343733005981F4 /* UILabel.swift */,
+				9A0297241D336E6A005981F4 /* UIFont.swift */,
+				133E4BFF1DAE2C880070D5BE /* UIView.swift */,
+				0DA2595A1DD4EA5A00AE548E /* UIImageView.swift */,
+				0DAB61641DD6169E00506A78 /* UIImage.swift */,
+				13EB53151DF844FA00AA6C7B /* UIViewController.swift */,
+				13EB53171DF8454C00AA6C7B /* Int.swift */,
+				13EB53191DF8457E00AA6C7B /* Integer.swift */,
+				13EB531D1DF845B500AA6C7B /* Array.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1B598BE21CCA761E007982B7 /* Primitive */ = {
+			isa = PBXGroup;
+			children = (
+				1B35F50E1D657568006D520A /* UserImage.swift */,
+				1B598BE31CCA762E007982B7 /* AnimatedCircle.swift */,
+				9AA758161D423A48006FEE36 /* GRCustomButtons.swift */,
+			);
+			name = Primitive;
+			sourceTree = "<group>";
+		};
+		1B7FCACD1BE2C04B0089849F = {
+			isa = PBXGroup;
+			children = (
+				0D2AFB581CC6041E00F7845A /* README.md */,
+				9AC432D21C98234F003F925C /* 12679449_1259816744031665_123406415_n.png */,
+				9AF687B71C93154100489A81 /* Grocerest-Bridging-Header.h */,
+				9AF687B51C9314B600489A81 /* GoogleService-Info.plist */,
+				1B7FCAD81BE2C04B0089849F /* Grocerest */,
+				1B7FCAD71BE2C04B0089849F /* Products */,
+				9AFEBA741D2E651100B34338 /* Info.plist */,
+				2C1F0E64A84AF8F3902AAF27 /* Frameworks */,
+				CA0ADAED27EF389739064AC2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7FCAD71BE2C04B0089849F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7FCAD61BE2C04B0089849F /* Grocerest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B7FCAD81BE2C04B0089849F /* Grocerest */ = {
+			isa = PBXGroup;
+			children = (
+				133CAD871DF6B8FD00F080AC /* Sources */,
+				9A3F85041BE3B75400212FE0 /* Resources */,
+				1376E9981CD23C5F00698BE8 /* Localization */,
+				0DE11C821D8A87BA0046F7A4 /* Grocerest.entitlements */,
+				1B7FCAE01BE2C04B0089849F /* Assets.xcassets */,
+				1B7FCAD91BE2C04B0089849F /* AppDelegate.swift */,
+				1B7FCAE21BE2C04B0089849F /* LaunchScreen.storyboard */,
+				1B7FCADD1BE2C04B0089849F /* Main.storyboard */,
+				0D4A56AD1E798DC700B4FEA1 /* Development.storyboard */,
+			);
+			path = Grocerest;
+			sourceTree = "<group>";
+		};
+		1B82560A1D4C834A000E9F68 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1B82560B1D4C836D000E9F68 /* GRNotification.swift */,
+				1B82560D1D4C83ED000E9F68 /* GRNotificationView.swift */,
+				1B82560F1D4C8455000E9F68 /* GRNotificationConstants.swift */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		2C1F0E64A84AF8F3902AAF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8348D91BE59F3500A46C4B /* QuartzCore.framework */,
+				9A8348D71BE59F2B00A46C4B /* UIKit.framework */,
+				9A8348D51BE59F1C00A46C4B /* CoreGraphics.framework */,
+				9A8348D31BE59F1200A46C4B /* Foundation.framework */,
+				D809B726F9BEB252DCB3A793 /* Pods_Grocerest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		401104FB1E1EA53D000D778D /* RelatedProducts */ = {
+			isa = PBXGroup;
+			children = (
+				401104FC1E1EA558000D778D /* GRRelatedProductView.swift */,
+				401104FE1E1EA574000D778D /* GRRelatedProductsView.swift */,
+			);
+			name = RelatedProducts;
+			sourceTree = "<group>";
+		};
+		40D6BF391DB78CCC002C3905 /* UsersSection */ = {
+			isa = PBXGroup;
+			children = (
+				13363CCF1DB65B3F00046DD8 /* GRUsersView.swift */,
+				40D6BF3A1DB78D11002C3905 /* GRUserView.swift */,
+				40C7B2FB1DBE124B003A9A59 /* GRUsersSearchView.swift */,
+			);
+			name = UsersSection;
+			sourceTree = "<group>";
+		};
+		9A19A09B1BE82C4200CB56F8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1B9004E51CBB85C000DDF0D0 /* GRModalViewControllerDelegate.swift */,
+				9A21C6271C11CC2D0076551B /* GRAddProductProtocol.swift */,
+				9A21C6281C11CC2D0076551B /* GRCategoryListProtocol.swift */,
+				134346BB1CE1E147008CB2BE /* GRMessageViewProtocol.swift */,
+				9A21C6291C11CC2D0076551B /* GRCheckboxDelegate.swift */,
+				9A19A09C1BE82C5600CB56F8 /* GRCheckboxProtocol.swift */,
+				13F88A9F1CEDF7B400D642A0 /* GRClientTooOldErrorViewProtocol.swift */,
+				13F88AA01CEDF7B400D642A0 /* GRDeactivatedUserErrorViewProtocol.swift */,
+				13F88AA11CEDF7B400D642A0 /* GREmailNotVerifiedViewProtocol.swift */,
+				9A1C36421BF255520037F198 /* GRCommentModalViewProtocol.swift */,
+				9A21C65F1C11CD690076551B /* GRCreateListProtocol.swift */,
+				9A21C62B1C11CC2D0076551B /* GRListsProtocol.swift */,
+				9A21C62C1C11CC2D0076551B /* GRLoginViewDelegate.swift */,
+				9A565E1F1BED008200301A87 /* GRLoginViewProtocol.swift */,
+				9A21C62D1C11CC2D0076551B /* GRMenuProtocol.swift */,
+				9A565E1D1BECD0BF00301A87 /* GRRegistrationViewProtocol.swift */,
+				9A21C62F1C11CC2D0076551B /* GRReviewBoxProtocol.swift */,
+				9A7203FA1BE970BB004D4897 /* GRReviewBoxVoteProtocol.swift */,
+				9A1C36401BF246B80037F198 /* GRReviewBoxWriteCommentProtocol.swift */,
+				9A963E341BED0F1A00245F01 /* GRToolBarProtocol.swift */,
+				9A10C3731C22C24500366C68 /* GRSingleProductMoreActionsProtocol.swift */,
+				9A1891251C34BC0F00CE72C2 /* GRAddFriendsProtocol.swift */,
+				9A9D5F881C38946000A9C3DD /* GRFriendsDataProtocol.swift */,
+				9A959D991C3DDA650009D6CC /* GRAfterReviewProtocol.swift */,
+				9A25DC3A1C3991AE00DB0B0B /* GRPostReviewProtocol.swift */,
+				9AF9245C1C3AE2890008DFAD /* GRShoppingItemProtocol.swift */,
+				9A4DE4C31C427AF9007D4AF1 /* GRSearchBarProtocol.swift */,
+				9AF862361C5B946E0085619C /* GRMenuDataProtocol.swift */,
+				9ADD89161C85FCF3005F3B20 /* GRUserCategorizedProductsProtocol.swift */,
+				9A8ED3D11C8DA608002F3EE8 /* GRMoreActionsForProductProtocol.swift */,
+				9A6DEC0E1C8FA9E2003E0ABC /* GRUpdateHomeListProtocol.swift */,
+				9AF687B31C92FB7D00489A81 /* GRVoteReplicationProtocol.swift */,
+				9AF5CA081C9B042E008C83CD /* GRProfileUpdateProtocol.swift */,
+				9A9C5CC51C9C10CC00CBACA0 /* GRInviteProtocol.swift */,
+				1B300B8C1CC4414C00C96F36 /* GRSearchCompletionProtocol.swift */,
+				134346C11CE21599008CB2BE /* GRCredentialsRecoveryProtocol.swift */,
+				9A0C39C21DA7F4B400D96F8F /* AfterDismissDispatcherProtocol.swift */,
+				13810A721E49AFAE00FBE6B7 /* GRLastIdTappedCacher.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		9A3F85041BE3B75400212FE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9ACC73AB1C90BCF50032FA7B /* tos.html */,
+				9A3F85051BE3B75B00212FE0 /* Fonts */,
+				9ACC73B21C90CA130032FA7B /* privacy.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9A3F85051BE3B75B00212FE0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B556BC21C77434000A88898 /* Ubuntu-B.ttf */,
+				1B556BC31C77434000A88898 /* Ubuntu-L.ttf */,
+				1B556BC41C77434000A88898 /* Ubuntu-M.ttf */,
+				1B556BC51C77434000A88898 /* Ubuntu-R.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9A3F94CD1DD2645900B5879F /* InvitationView */ = {
+			isa = PBXGroup;
+			children = (
+				9A3F94CE1DD2648800B5879F /* GRInvitationCodeView.swift */,
+			);
+			name = InvitationView;
+			sourceTree = "<group>";
+		};
+		9A85D2511C1AFBF000F30810 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A85D2541C1AFC6E00F30810 /* GRAuthViewModel.swift */,
+				9A52337E1C1B56DC00FC6831 /* GRRegisterUserViewModel.swift */,
+				9A8567F41C1CFC2D008AC346 /* GRUserViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9ABEE58F1DB63BD100920F41 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A19A0971BE7D39C00CB56F8 /* GRHomeViewController.swift */,
+				1B263EDC1CE61EA300E78C9A /* GRHomeViewController+UICollectionViewDataSource.swift */,
+				1B263EDE1CE6203D00E78C9A /* GRHomeViewController+UICollectionViewDelegate.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		CA0ADAED27EF389739064AC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C5B7B43EE534EA0E6E942 /* Pods-Grocerest.debug.xcconfig */,
+				7878BF68CDE9FD2058168472 /* Pods-Grocerest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7FCAD51BE2C04B0089849F /* Grocerest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7FCAFE1BE2C04C0089849F /* Build configuration list for PBXNativeTarget "Grocerest" */;
+			buildPhases = (
+				CD9758E94D76DF95EA0EE859 /* [CP] Check Pods Manifest.lock */,
+				1B7FCAD21BE2C04B0089849F /* Sources */,
+				1B7FCAD31BE2C04B0089849F /* Frameworks */,
+				1B7FCAD41BE2C04B0089849F /* Resources */,
+				9A63853D1C1A079C0094D99C /* ShellScript */,
+				4A54D1E25C2F59598009365B /* [CP] Embed Pods Frameworks */,
+				69D29B6FE5BE8496079C985A /* [CP] Copy Pods Resources */,
+				131B38D21DA6520600460BC0 /* Embed Frameworks */,
+				0D2889511E79C70200868F66 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grocerest;
+			productName = Grocerest;
+			productReference = 1B7FCAD61BE2C04B0089849F /* Grocerest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7FCACE1BE2C04B0089849F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = grocerest;
+				TargetAttributes = {
+					1B7FCAD51BE2C04B0089849F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = JV9YLU7J5H;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1B7FCAD11BE2C04B0089849F /* Build configuration list for PBXProject "Grocerest" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = Italian;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				it,
+				Base,
+			);
+			mainGroup = 1B7FCACD1BE2C04B0089849F;
+			productRefGroup = 1B7FCAD71BE2C04B0089849F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7FCAD51BE2C04B0089849F /* Grocerest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7FCAD41BE2C04B0089849F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7FCAE41BE2C04B0089849F /* LaunchScreen.storyboard in Resources */,
+				9ACC73AD1C90BF810032FA7B /* tos.html in Resources */,
+				1B556BC81C77434000A88898 /* Ubuntu-M.ttf in Resources */,
+				1B7FCAE11BE2C04B0089849F /* Assets.xcassets in Resources */,
+				1B556BC91C77434000A88898 /* Ubuntu-R.ttf in Resources */,
+				1B556BC71C77434000A88898 /* Ubuntu-L.ttf in Resources */,
+				1B556BC61C77434000A88898 /* Ubuntu-B.ttf in Resources */,
+				9AF687B61C9314B600489A81 /* GoogleService-Info.plist in Resources */,
+				1376E99A1CD23C7300698BE8 /* FacebookSDKStrings.bundle in Resources */,
+				0D4A56AE1E798DC700B4FEA1 /* Development.storyboard in Resources */,
+				9AC432D31C98234F003F925C /* 12679449_1259816744031665_123406415_n.png in Resources */,
+				9ACC73B31C90CA130032FA7B /* privacy.html in Resources */,
+				1B7FCADF1BE2C04B0089849F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2889511E79C70200868F66 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "export NODE_BINARY=node\n./node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		4A54D1E25C2F59598009365B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grocerest/Pods-Grocerest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D29B6FE5BE8496079C985A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grocerest/Pods-Grocerest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A63853D1C1A079C0094D99C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 793cf688f40ce06b7b76726f85d78b70bd558346 cbfef468e8cf63deea2836b38f1250e21cbb39ec89bf82ce3104a7c91d12bcdf";
+		};
+		CD9758E94D76DF95EA0EE859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7FCAD21BE2C04B0089849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3F850F1BE3B8BC00212FE0 /* Constants.swift in Sources */,
+				134346BC1CE1E147008CB2BE /* GRMessageViewProtocol.swift in Sources */,
+				1B2BAD5A1CA4857600FD2012 /* GRTutorialView.swift in Sources */,
+				13EB531E1DF845B500AA6C7B /* Array.swift in Sources */,
+				131ED39C1D38C2E100AAFA74 /* GRReviewsListView.swift in Sources */,
+				9A8348E01BE6252600A46C4B /* GRCategoryListViewController.swift in Sources */,
+				9A21C6461C11CC4A0076551B /* GRShoppingListViewController.swift in Sources */,
+				1B82560C1D4C836D000E9F68 /* GRNotification.swift in Sources */,
+				13F88A9C1CEDF79500D642A0 /* GRClientTooOldErrorViewController.swift in Sources */,
+				4058D2AC1E51C0F200E0F89E /* GRBrandProductsListViewController.swift in Sources */,
+				9A8348DE1BE6250C00A46C4B /* GRCategoryListView.swift in Sources */,
+				9A078A4A1DBEAA71007559EA /* GRUserStats.swift in Sources */,
+				9A21C6541C11CC640076551B /* GRShoppingItemViewCell.swift in Sources */,
+				9A303FE81DCBF9A400555EA4 /* GRReviewsToCompletePlaceHolderView.swift in Sources */,
+				13C6D4AE1D2A971A0000867C /* GRReviewTableViewCell.swift in Sources */,
+				13E6AD321D24ECA000C94E04 /* GRScoreDistributionView.swift in Sources */,
+				9A21C6561C11CC640076551B /* GRTopListView.swift in Sources */,
+				13EB53181DF8454C00AA6C7B /* Int.swift in Sources */,
+				13E36D271D2A686200A74DD9 /* GRProductDetailReviewsListDataSource.swift in Sources */,
+				9A963E351BED0F1A00245F01 /* GRToolBarProtocol.swift in Sources */,
+				9A1891221C34BB0D00CE72C2 /* GRAddFriendsViewController.swift in Sources */,
+				1B82560E1D4C83ED000E9F68 /* GRNotificationView.swift in Sources */,
+				9A871F131C566AED0068B925 /* GRZoomView.swift in Sources */,
+				1334F1881E57300200160054 /* GRBrandsSearchFilterView.swift in Sources */,
+				1334F18A1E57304100160054 /* GRBrandsSearchFilterViewController.swift in Sources */,
+				9A25DC3B1C3991AE00DB0B0B /* GRPostReviewProtocol.swift in Sources */,
+				1BDD8BA11D88053500E23235 /* DeepLinksManager.swift in Sources */,
+				9ABE19061C3C8F3E0082D3F4 /* GRProductsListViewController.swift in Sources */,
+				9A9C5CC01C9C0CA500CBACA0 /* GRGenericPersonTableViewCell.swift in Sources */,
+				1B1D9C8E1C776B45003949DC /* GREditProfileView.swift in Sources */,
+				1309BA981D6D8FBE00583EE2 /* GRStatProgress.swift in Sources */,
+				9A4DE4C41C427AF9007D4AF1 /* GRSearchBarProtocol.swift in Sources */,
+				9A7203F91BE91588004D4897 /* GRReviewBoxComented.swift in Sources */,
+				13A5B7561E2619AD0073EA9B /* ReviewSharingActivitySource.swift in Sources */,
+				9A21C6501C11CC640076551B /* GRCreateListView.swift in Sources */,
+				1372FFA11CEEEB3F007E4128 /* UIApplication.swift in Sources */,
+				9A19A0A11BE8C6BC00CB56F8 /* GRReviewViewController.swift in Sources */,
+				9A1ACBC21C6C7D9300DDA44C /* GREditFriendsTableViewCell.swift in Sources */,
+				9A7203F31BE9155C004D4897 /* GRReviewBoxVote.swift in Sources */,
+				9AF862391C5B9D190085619C /* GRHomeCollectionViewCell.swift in Sources */,
+				9A0C39C31DA7F4B400D96F8F /* AfterDismissDispatcherProtocol.swift in Sources */,
+				9A6869C81C29B85000871751 /* GRCustomNavigationAnimationController.swift in Sources */,
+				1B535A1B1BE2DB0C006E7E3A /* GRWelcomeViewController.swift in Sources */,
+				13EB531A1DF8457E00AA6C7B /* Integer.swift in Sources */,
+				9AB2A0C91CC8FC9600570E52 /* GRUserNumericalStatView.swift in Sources */,
+				131D30191D81500C009AE769 /* GRBadge.swift in Sources */,
+				9A1DE5DA1C2839DC00DE31BE /* GREditInsertedProductView.swift in Sources */,
+				9AFBE55F1D477C50009340D9 /* GRUserProfileViewController+UITableViewDelegate.swift in Sources */,
+				9AB8B4491C2009A500EFC34D /* GRProfileView.swift in Sources */,
+				9A304ED01C5FA0090010ECD1 /* GRUserProductsClassified.swift in Sources */,
+				9AEB969D1BE42AED00845CDE /* GRLoginViewController.swift in Sources */,
+				9A2490031C3C5BD4000EA9CF /* GRProductsViewController.swift in Sources */,
+				13363CCE1DB655B200046DD8 /* GRUsersViewController.swift in Sources */,
+				0D2889181E799C4400868F66 /* RCTViewController.swift in Sources */,
+				9A21C6321C11CC2D0076551B /* GRAddProductProtocol.swift in Sources */,
+				1BD5ABE41CEA79C4003026AC /* GRShoppingListViewController+UITableViewDelegate.swift in Sources */,
+				133EDDCC1DB5032500E8B3AF /* GRLastReviews.swift in Sources */,
+				0D2889541E7AA24200868F66 /* EventManagerBridge.m in Sources */,
+				1BE12C961D4B2EC400584A5F /* GRLocalNotificationHUB.swift in Sources */,
+				40C7B2FC1DBE124B003A9A59 /* GRUsersSearchView.swift in Sources */,
+				9A21C6451C11CC4A0076551B /* GROneLineProductViewCell.swift in Sources */,
+				134346B81CE1E11B008CB2BE /* GRMessageViewController.swift in Sources */,
+				9A1DE5DC1C2839F200DE31BE /* GREditInsertedProductController.swift in Sources */,
+				13F88AA21CEDF7B400D642A0 /* GRClientTooOldErrorViewProtocol.swift in Sources */,
+				9A28DB691C42CE26009DA8B4 /* GRAutocompleteView.swift in Sources */,
+				13D4D3271D055F5F009DF6CD /* GRHomeCollectionLoadingViewCell.swift in Sources */,
+				13EB53201DF848F500AA6C7B /* Various.swift in Sources */,
+				9AF9245D1C3AE2890008DFAD /* GRShoppingItemProtocol.swift in Sources */,
+				9A1ACBBE1C6BFC0900DDA44C /* GRModifyListView.swift in Sources */,
+				1B9004E81CBB8FF400DDF0D0 /* GROrderItemsView.swift in Sources */,
+				9A21C6531C11CC640076551B /* GRMyListViewCell.swift in Sources */,
+				1BD5ABE21CEA79B9003026AC /* GRShoppingListViewController+UITableViewDataSource.swift in Sources */,
+				13AE8FDA1DB0C1060057C809 /* GRReviewsToComplete.swift in Sources */,
+				9A19A09A1BE7D3A700CB56F8 /* GRHomeView.swift in Sources */,
+				9A02A06E1C5970EF004B8299 /* GRSynchUserData.swift in Sources */,
+				9A565E1E1BECD0BF00301A87 /* GRRegistrationViewProtocol.swift in Sources */,
+				1B263EDB1CE52F1100E78C9A /* GRAddProductViewController+UITableViewDelegate.swift in Sources */,
+				9A959DA01C3E9F170009D6CC /* GRProductsResultTableViewCell.swift in Sources */,
+				9ADD89131C85BA91005F3B20 /* GRHelpView.swift in Sources */,
+				1B9004EA1CBB900600DDF0D0 /* GROrderItemsViewController.swift in Sources */,
+				1328FF4B1D0FEA49005AC354 /* GRSelectorAlertViewController.swift in Sources */,
+				9AA0EB1B1BE56DF8000CAF66 /* GRRegistrationViewController.swift in Sources */,
+				1313A86A1CFC2639001F5DC8 /* GRNetworkErrorView.swift in Sources */,
+				13BE03C41D6D789E0069387F /* GRProgressCircle.swift in Sources */,
+				9AA7580F1D40BFD8006FEE36 /* GRReportViewController.swift in Sources */,
+				1B0A2F731CBFC09000E3B936 /* GRAutocompletionTableViewCell.swift in Sources */,
+				9AF18C071C3C655700064722 /* GRProductsView.swift in Sources */,
+				13810A751E49C2F600FBE6B7 /* GRBrandDetailProductsListDataSource.swift in Sources */,
+				9A8ED3D21C8DA608002F3EE8 /* GRMoreActionsForProductProtocol.swift in Sources */,
+				13F88A9E1CEDF79500D642A0 /* GREmailNotVerifiedErrorViewController.swift in Sources */,
+				9AA758171D423A48006FEE36 /* GRCustomButtons.swift in Sources */,
+				13204D1F1D09A4E5002313E8 /* GRPasswordChangeAlertView.swift in Sources */,
+				131D7FA71D7983C6009DE400 /* GRReviewsStatisticsCategoryTable.swift in Sources */,
+				9AFBE55D1D46BBC8009340D9 /* GRUserReviewTableViewCell.swift in Sources */,
+				9AAC91471C40714700A42ED3 /* GRModalRecensioneViewController.swift in Sources */,
+				9A1891241C34BB1500CE72C2 /* GRAddFriendsView.swift in Sources */,
+				9A21C6361C11CC2D0076551B /* GRListsProtocol.swift in Sources */,
+				132FAFAB1D225DD80076A7F1 /* GRProductDetailViewController.swift in Sources */,
+				9AF18C091C3C759B00064722 /* GRProductCollectionViewCell.swift in Sources */,
+				0D55AB3C1DEC93CB00037E8E /* GrocerestAPI.swift in Sources */,
+				9A19A0A31BE8C6D000CB56F8 /* GRReviewView.swift in Sources */,
+				1B956B571D14B2B900E2E018 /* Helper.swift in Sources */,
+				9AFBE5651D47D97A009340D9 /* GRUserReviewsView.swift in Sources */,
+				9A10C3741C22C24500366C68 /* GRSingleProductMoreActionsProtocol.swift in Sources */,
+				9AEB969B1BE42AE200845CDE /* GRLoginView.swift in Sources */,
+				1B300B8D1CC4414C00C96F36 /* GRSearchCompletionProtocol.swift in Sources */,
+				131D301B1D8172B2009AE769 /* GRBadgeWidget.swift in Sources */,
+				9A7203FD1BEA5EDE004D4897 /* GRCommentModalView.swift in Sources */,
+				9AB8B44B1C2009C000EFC34D /* GRProfileViewController.swift in Sources */,
+				1B5A58461CEA719A00D67852 /* GRProfileView+API.swift in Sources */,
+				13BAA9601E434A6C0028990B /* GRBrandsSearchResultsView.swift in Sources */,
+				9A1C36411BF246B80037F198 /* GRReviewBoxWriteCommentProtocol.swift in Sources */,
+				9A7203FB1BE970BB004D4897 /* GRReviewBoxVoteProtocol.swift in Sources */,
+				9A6DEC0F1C8FA9E2003E0ABC /* GRUpdateHomeListProtocol.swift in Sources */,
+				1B2BAD5C1CA4858400FD2012 /* GRTutorialViewController.swift in Sources */,
+				9AAC91491C40714F00A42ED3 /* GRModalRecensioneView.swift in Sources */,
+				401104FD1E1EA558000D778D /* GRRelatedProductView.swift in Sources */,
+				1B74440B1BE2D794004AF89D /* GRWelcomeView.swift in Sources */,
+				9A9C5CC41C9C0F8F00CBACA0 /* GRInviteView.swift in Sources */,
+				9AB2A0C71CC8F9B800570E52 /* GRUserStatsView.swift in Sources */,
+				9A21C6511C11CC640076551B /* GRInviteFriendsView.swift in Sources */,
+				9A4DE4C01C427AE6007D4AF1 /* GRSearchBarView.swift in Sources */,
+				40C7B2FA1DBE123A003A9A59 /* GRUsersSearchViewController.swift in Sources */,
+				9A85D2531C1AFC3F00F30810 /* GRAuthUser.swift in Sources */,
+				1B263EDD1CE61EA300E78C9A /* GRHomeViewController+UICollectionViewDataSource.swift in Sources */,
+				40D6BF3B1DB78D11002C3905 /* GRUserView.swift in Sources */,
+				9AA758151D42282B006FEE36 /* GRAlertView.swift in Sources */,
+				9AB4350C1C47D1D800E4D8E4 /* GRMiniVoteView.swift in Sources */,
+				9A19A0981BE7D39C00CB56F8 /* GRHomeViewController.swift in Sources */,
+				9A1ACBC01C6BFC1100DDA44C /* GRModifyListViewController.swift in Sources */,
+				9AF687B41C92FB7D00489A81 /* GRVoteReplicationProtocol.swift in Sources */,
+				135587D21DA4EF530065D18B /* GRHomeBaloonView.swift in Sources */,
+				9A10C3701C22BB7D00366C68 /* GRSingleProductMoreActionsModalView.swift in Sources */,
+				136C7F511D7D815C00557AD3 /* GRCategoriesTab.swift in Sources */,
+				9A6815C11C4E7995004A99F4 /* GRPredefinedListView.swift in Sources */,
+				9AA758131D4220A0006FEE36 /* GRAlertViewController.swift in Sources */,
+				131D30161D814066009AE769 /* GRBadgesTab.swift in Sources */,
+				133E4C031DAE2E920070D5BE /* GRCategoriesToExplore.swift in Sources */,
+				13BAA95E1E432E190028990B /* GRBrandsListView.swift in Sources */,
+				9ADD89171C85FCF3005F3B20 /* GRUserCategorizedProductsProtocol.swift in Sources */,
+				9A9C5CC21C9C0CFE00CBACA0 /* GRInviteTableViewController.swift in Sources */,
+				13F349CE1E0AC1CE00612D8B /* GRProductSearchPlaceholder.swift in Sources */,
+				9A1ACBBC1C6BBEDF00DDA44C /* GRMoreActionsForListViewController.swift in Sources */,
+				9A3F94CC1DD2644A00B5879F /* GRInvitationCodeViewController.swift in Sources */,
+				9A6815BF1C4E7987004A99F4 /* GRPredefinedListViewController.swift in Sources */,
+				9A303FE61DCBF0FC00555EA4 /* CustomActivitySource.swift in Sources */,
+				9AFBE55B1D4547A2009340D9 /* GRUserProfileView.swift in Sources */,
+				9A871F151C566AF60068B925 /* GRZoomViewController.swift in Sources */,
+				9AFBE5591D454790009340D9 /* GRUserProfileViewController.swift in Sources */,
+				134346C21CE21599008CB2BE /* GRCredentialsRecoveryProtocol.swift in Sources */,
+				1B8256101D4C8455000E9F68 /* GRNotificationConstants.swift in Sources */,
+				13810A711E49A4E900FBE6B7 /* GRBrandDetailViewController.swift in Sources */,
+				9A21C6521C11CC640076551B /* GRMyListView.swift in Sources */,
+				13810A731E49AFAE00FBE6B7 /* GRLastIdTappedCacher.swift in Sources */,
+				4058D2AE1E51C23200E0F89E /* GRBrandProductsListView.swift in Sources */,
+				9A6B2DBA1C6500E3006134BC /* GRCaptureProductView.swift in Sources */,
+				9A10C3721C22BB8D00366C68 /* GRSingleProductMoreActionsModalViewController.swift in Sources */,
+				9AC58BCC1D0EB01600798C6E /* GRShoppingListMenuViewController+UITableViewDelegate.swift in Sources */,
+				13F88AA41CEDF7B400D642A0 /* GREmailNotVerifiedViewProtocol.swift in Sources */,
+				13F349C61E0A794700612D8B /* GRProductSearchView.swift in Sources */,
+				9AF8AEB01C18DC9E003B8E28 /* GRUser.swift in Sources */,
+				1BACF7641CFDB78700A50322 /* GRProfileViewController+UserProfile.swift in Sources */,
+				9A7203FF1BEA5EE5004D4897 /* GRCommentModalViewController.swift in Sources */,
+				9AF8AEB21C18E580003B8E28 /* GRAuthentication.swift in Sources */,
+				407F366E1E44EA02003796E8 /* GRBrandsSearchView.swift in Sources */,
+				13406CAE1DABACED00256571 /* GRReviewToComplete.swift in Sources */,
+				9A21C63A1C11CC2D0076551B /* GRReviewBoxProtocol.swift in Sources */,
+				9A85D2551C1AFC6E00F30810 /* GRAuthViewModel.swift in Sources */,
+				9AF632D11C5E25E90077D644 /* ENSideMenu.swift in Sources */,
+				135C186D1E029D2800427B5F /* GRScannedProductNotFoundView.swift in Sources */,
+				134346C01CE21552008CB2BE /* GRCredentialsRecoveryView.swift in Sources */,
+				13F88AA91CEDF7D400D642A0 /* GRDeactivatedUserErrorView.swift in Sources */,
+				9A19A09F1BE82CAA00CB56F8 /* GRCheckbox.swift in Sources */,
+				132FAFAD1D225DEE0076A7F1 /* GRProductDetailView.swift in Sources */,
+				9A565E201BED008200301A87 /* GRLoginViewProtocol.swift in Sources */,
+				9AFBE5611D477C5E009340D9 /* GRUserProfileViewController+UITableViewDataSource.swift in Sources */,
+				9A6D13441C354C1000F5C1A0 /* GRFriendsViewCell.swift in Sources */,
+				138D78C41DA62EC3009B3715 /* GRBaloonMessage.swift in Sources */,
+				1324E2971D11386F0042A096 /* GRDateSelectorAlertView.swift in Sources */,
+				9AEDF89A1D0F733E0055427A /* UITableViewCell.swift in Sources */,
+				9A21C6341C11CC2D0076551B /* GRCheckboxDelegate.swift in Sources */,
+				131C94DD1D7573B300622C7F /* GRCategoryLevelProgressStatisticsPanel.swift in Sources */,
+				9A21C6381C11CC2D0076551B /* GRMenuProtocol.swift in Sources */,
+				9A43C7271D2AD0C900258868 /* UIColor.swift in Sources */,
+				9A8567F51C1CFC2D008AC346 /* GRUserViewModel.swift in Sources */,
+				0DAB61651DD6169E00506A78 /* UIImage.swift in Sources */,
+				13EB53161DF844FA00AA6C7B /* UIViewController.swift in Sources */,
+				0D0F305D1CDCC33500590511 /* GRShoppingListAutocompleteBarView.swift in Sources */,
+				13F88A9D1CEDF79500D642A0 /* GRDeactivatedUserErrorViewController.swift in Sources */,
+				13D928FD1E2517A500D6F37F /* ProductSharingActivitySource.swift in Sources */,
+				9A52337D1C1B4BE600FC6831 /* GRRegisterUser.swift in Sources */,
+				9A0297231D316894005981F4 /* GRReputationView.swift in Sources */,
+				9A21C6601C11CD690076551B /* GRCreateListProtocol.swift in Sources */,
+				9A7203F51BE9156E004D4897 /* GRReviewBoxFrequency.swift in Sources */,
+				13F88AA31CEDF7B400D642A0 /* GRDeactivatedUserErrorViewProtocol.swift in Sources */,
+				1324E2951D1138490042A096 /* GRDateSelectorAlertViewController.swift in Sources */,
+				13F349C81E0A957000612D8B /* GRProductSearchViewController.swift in Sources */,
+				9AF751C31D095170009A820C /* GRShoppingListMenuViewController.swift in Sources */,
+				133DAB621DACEDEA0058639A /* GRCategoryToExplore.swift in Sources */,
+				9A3F94CF1DD2648800B5879F /* GRInvitationCodeView.swift in Sources */,
+				1B9004E61CBB85C000DDF0D0 /* GRModalViewControllerDelegate.swift in Sources */,
+				9A965BEF1C3CA67D00B7C327 /* GRSettingsViewController.swift in Sources */,
+				9A21C6371C11CC2D0076551B /* GRLoginViewDelegate.swift in Sources */,
+				1B598BE41CCA762E007982B7 /* AnimatedCircle.swift in Sources */,
+				9A7203F71BE9157E004D4897 /* GRReviewBoxWriteComment.swift in Sources */,
+				9A1891261C34BC0F00CE72C2 /* GRAddFriendsProtocol.swift in Sources */,
+				9A6B2DBC1C6500EA006134BC /* GRCaptureProductViewController.swift in Sources */,
+				136709F91D76D711000C64FE /* GRCakeDiagram.swift in Sources */,
+				134346BE1CE21519008CB2BE /* GRCredentialsRecoveryViewController.swift in Sources */,
+				401104FF1E1EA574000D778D /* GRRelatedProductsView.swift in Sources */,
+				9A0F68261C50F587008437DE /* GRProfileToolbar.swift in Sources */,
+				13DBA7A11D82BB39001E6832 /* GRUserProfileStatisticsTabbedPanel.swift in Sources */,
+				0DA0A9FE1E32AFC100DBB15D /* TuneManager.swift in Sources */,
+				9AF751C11D095166009A820C /* GRShoppingListMenuView.swift in Sources */,
+				9A0297211D316863005981F4 /* GRReputationViewController.swift in Sources */,
+				9A21C6431C11CC4A0076551B /* GRCreateListViewController.swift in Sources */,
+				9A3CE7871DCBFE1E00662247 /* GRLatestReviewsPlaceHolderView.swift in Sources */,
+				9A28DB6B1C42CE30009DA8B4 /* GRAutocompleteViewController.swift in Sources */,
+				9A1C36431BF255520037F198 /* GRCommentModalViewProtocol.swift in Sources */,
+				1B1D9C8C1C776AFA003949DC /* GREditProfileViewController.swift in Sources */,
+				1BB0B54A1CD20630000F7156 /* Review.swift in Sources */,
+				9A21C6421C11CC4A0076551B /* GRAddProductViewController.swift in Sources */,
+				9A9C5CC61C9C10CC00CBACA0 /* GRInviteProtocol.swift in Sources */,
+				13F88AAA1CEDF7D400D642A0 /* GREmailNotVerifiedErrorView.swift in Sources */,
+				13363CD01DB65B3F00046DD8 /* GRUsersView.swift in Sources */,
+				9A8348DC1BE624C100A46C4B /* GRCategoryViewCell.swift in Sources */,
+				1313A86C1CFC2667001F5DC8 /* GRNetworkErrorViewController.swift in Sources */,
+				1B263EDF1CE6203D00E78C9A /* GRHomeViewController+UICollectionViewDelegate.swift in Sources */,
+				9A1891201C3495B300CE72C2 /* GRBarcodeScannerViewController.swift in Sources */,
+				9AFBE5631D47D971009340D9 /* GRUserReviewsViewController.swift in Sources */,
+				9AA0EB151BE4E6D1000CAF66 /* GRToolbar.swift in Sources */,
+				1B0A2F751CBFC1BE00E3B936 /* GRAutocompletionView.swift in Sources */,
+				13D4D3291D0587A6009DF6CD /* GRLoadingTopListView.swift in Sources */,
+				9A78FFC91C3194B60081D4A5 /* GROnBoardData.swift in Sources */,
+				9A959D9A1C3DDA650009D6CC /* GRAfterReviewProtocol.swift in Sources */,
+				1399406A1D3D07F7006A8E78 /* GRReviewDetailViewController.swift in Sources */,
+				1B35F50F1D657568006D520A /* UserImage.swift in Sources */,
+				407F36701E44EA4C003796E8 /* GRBrandsSearchViewController.swift in Sources */,
+				9A02972B1D343733005981F4 /* UILabel.swift in Sources */,
+				40F3B6C91E13DBE6000A1A41 /* GRProductSearchFilterViewController.swift in Sources */,
+				1B956B5C1D17AFFA00E2E018 /* String.swift in Sources */,
+				135321081D6ED082006C8710 /* GRActivityLevelProgressStatisticsPanel.swift in Sources */,
+				40F3B6CB1E13DC5F000A1A41 /* GRProductSearchFilterView.swift in Sources */,
+				13810A6F1E49A48F00FBE6B7 /* GRBrandDetailView.swift in Sources */,
+				9A21C6441C11CC4A0076551B /* GRMyListViewController.swift in Sources */,
+				1B263ED91CE52D1C00E78C9A /* GRAddProductViewController+UITableViewDataSource.swift in Sources */,
+				0DAEDA771DD45B48000E690E /* GRInvitationCodeInvalidErrorViewController.swift in Sources */,
+				9A52337F1C1B56DC00FC6831 /* GRRegisterUserViewModel.swift in Sources */,
+				13BAA95B1E432DFB0028990B /* GRBrandsListViewController.swift in Sources */,
+				9A79256A1BF3591B0039DDA8 /* GRMenuView.swift in Sources */,
+				1328FF4D1D0FEA87005AC354 /* GRSelectorAlertView.swift in Sources */,
+				9A21C6331C11CC2D0076551B /* GRCategoryListProtocol.swift in Sources */,
+				1B7FCADA1BE2C04B0089849F /* AppDelegate.swift in Sources */,
+				9A19A09D1BE82C5600CB56F8 /* GRCheckboxProtocol.swift in Sources */,
+				9A7203E71BE901D3004D4897 /* GRReviewBoxView.swift in Sources */,
+				131ED39A1D38C2D600AAFA74 /* GRReviewsListViewController.swift in Sources */,
+				1B956B5A1D14B39D00E2E018 /* CGSize.swift in Sources */,
+				9A965BED1C3CA67100B7C327 /* GRSettingsView.swift in Sources */,
+				134346BA1CE1E136008CB2BE /* GRMessageView.swift in Sources */,
+				9A794D701C3F3D4C00D36A37 /* GRListButtonAsIconViewCollectionViewCell.swift in Sources */,
+				9ACC73A61C90A6E30032FA7B /* GRDocumentsViewController.swift in Sources */,
+				13204D1D1D099F82002313E8 /* GRPasswordChangeAlertViewController.swift in Sources */,
+				9A0297251D336E6A005981F4 /* UIFont.swift in Sources */,
+				0D2889561E7AA2D300868F66 /* EventManager.swift in Sources */,
+				9AF862371C5B946E0085619C /* GRMenuDataProtocol.swift in Sources */,
+				13BAA9621E4368B80028990B /* GRBrandsResultTableViewCell.swift in Sources */,
+				1399406C1D3D0801006A8E78 /* GRReviewDetailView.swift in Sources */,
+				9A030D8B1C59813F009E709F /* GRUserClassifiedProducts.swift in Sources */,
+				9AF632D21C5E25E90077D644 /* ENSideMenuNavigationController.swift in Sources */,
+				9A21C6551C11CC640076551B /* GRShoppingListView.swift in Sources */,
+				0DA2595B1DD4EA5A00AE548E /* UIImageView.swift in Sources */,
+				9AA758111D40BFE5006FEE36 /* GRReportView.swift in Sources */,
+				132B1EFC1D803DC70051CDA2 /* GRActivitiesTab.swift in Sources */,
+				9A79256C1BF3592C0039DDA8 /* GRMenuViewController.swift in Sources */,
+				9A9D5F891C38946000A9C3DD /* GRFriendsDataProtocol.swift in Sources */,
+				9AF5CA091C9B042E008C83CD /* GRProfileUpdateProtocol.swift in Sources */,
+				0DAEDA791DD45C9A000E690E /* GRInvitationCodeInvalidErrorView.swift in Sources */,
+				13F349CC1E0AA00200612D8B /* GRProductSearchResultsView.swift in Sources */,
+				133E4C001DAE2C880070D5BE /* UIView.swift in Sources */,
+				9AC58BCE1D0EB0AA00798C6E /* GRShoppingListMenuTableViewCell.swift in Sources */,
+				9A269BC01C4B0005005D4D9F /* GRSubCategoryTableViewCell.swift in Sources */,
+				0D4A56B01E798DFD00B4FEA1 /* GRProductAvailabilityView.swift in Sources */,
+				9ADD89151C85BA9F005F3B20 /* GRHelpViewController.swift in Sources */,
+				9A4312FB1C9E168C00F86C6C /* GRGetUserContacts.swift in Sources */,
+				133F71B31D14020B003492AD /* GRNameChangeAlertView.swift in Sources */,
+				9AA0EB191BE56DEA000CAF66 /* GRRegistrationView.swift in Sources */,
+				9A1ACBBA1C6BBED200DDA44C /* GRMoreActionsForListView.swift in Sources */,
+				9ACC73A81C90A7140032FA7B /* GRDocumentsView.swift in Sources */,
+				133F71B11D1401F1003492AD /* GRNameChangeAlertViewController.swift in Sources */,
+				0D2AFB591CC6041E00F7845A /* README.md in Sources */,
+				9AF1104B1C5AC1470017FCE9 /* GRNavigationController.swift in Sources */,
+				13F349CA1E0A9FED00612D8B /* GRProductSearchAutocompletionView.swift in Sources */,
+				133EDDCA1DB4B23400E8B3AF /* GRLastReview.swift in Sources */,
+				9A21C64F1C11CC640076551B /* GRAddProductView.swift in Sources */,
+				9ABE19081C3C8F4D0082D3F4 /* GRProductsListView.swift in Sources */,
+				13F88AA81CEDF7D400D642A0 /* GRClientTooOldErrorView.swift in Sources */,
+				9AC58BCA1D0EB00D00798C6E /* GRShoppingListMenuViewController+UITableViewDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B7FCADD1BE2C04B0089849F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7FCADE1BE2C04B0089849F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B7FCAE21BE2C04B0089849F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7FCAE31BE2C04B0089849F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B7FCAFC1BE2C04C0089849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B7FCAFD1BE2C04C0089849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7FCAFF1BE2C04C0089849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3C5B7B43EE534EA0E6E942 /* Pods-Grocerest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "http://";
+				CODE_SIGN_ENTITLEMENTS = Grocerest/Grocerest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JV9YLU7J5H;
+				ENABLE_BITCODE = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = Grocerest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grocerest.Grocerest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grocerest/Grocerest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		1B7FCB001BE2C04C0089849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7878BF68CDE9FD2058168472 /* Pods-Grocerest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "https://";
+				CODE_SIGN_ENTITLEMENTS = Grocerest/Grocerest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JV9YLU7J5H;
+				ENABLE_BITCODE = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INFOPLIST_FILE = Grocerest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grocerest.Grocerest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Grocerest/Grocerest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7FCAD11BE2C04B0089849F /* Build configuration list for PBXProject "Grocerest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7FCAFC1BE2C04C0089849F /* Debug */,
+				1B7FCAFD1BE2C04C0089849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7FCAFE1BE2C04C0089849F /* Build configuration list for PBXNativeTarget "Grocerest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7FCAFF1BE2C04C0089849F /* Debug */,
+				1B7FCB001BE2C04C0089849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B7FCACE1BE2C04B0089849F /* Project object */;
+}

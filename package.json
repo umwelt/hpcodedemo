@@ -1,0 +1,23 @@
+{
+  "name": "grocerest-ios",
+  "version": "1.0.0",
+  "description": "[Dev Board](https://waffle.io/Grocerestdev/grocerest-ios/join)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grocerestdev/grocerest-ios.git"
+  },
+  "author": "Davide Bertola <dade@dadeb.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grocerestdev/grocerest-ios/issues"
+  },
+  "homepage": "https://github.com/Grocerestdev/grocerest-ios#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-native": "^0.42.0"
+  }
+}
